@@ -203,18 +203,9 @@ const quoteEnglishTime2 = [
     {id:2 ,quote: "The bad news is time flies. The good news is you're the pilot.", author: "Michael Altshuler"},
     {id:3 ,quote: "The best thing about the future is that it comes one day at a time.", author: "Abraham Lincoln"},
     {id:4 ,quote: "Don't spend time beating on a wall, hoping to transform it into a door.", author: "Coco Chanel"},
-    {id:5 ,quote: "", author: ""},
-    {id:6 ,quote: "", author: ""},
-    {id:7 ,quote: "", author: ""},
-    {id:8 ,quote: "", author: ""},
-    {id:9 ,quote: "", author: ""},
-    {id:10 ,quote: "", author: ""},
-    {id:11 ,quote: "", author: ""},
-    {id:12 ,quote: "", author: ""},
-    {id:13 ,quote: "", author: ""},
-    {id:14 ,quote: "", author: ""},
-    {id:15 ,quote: "", author: ""},
-    {id:16 ,quote: "", author: ""}
+    {id:5 ,quote: "We must use time as a tool, not as a couch.", author: "John F. Kennedy"},
+    {id:6 ,quote: "Time is a waste of money", author: "Oscar Wilde"},
+    {id:7 ,quote: "I am definitely going to take a course on time management … just as soon as I can work it into my schedule.", author: "Louis E. Boone"}
 ];
 
 const quoteEnglishLife2 = [
