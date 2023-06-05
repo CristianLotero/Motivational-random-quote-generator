@@ -1,4 +1,4 @@
-const quoteSpanishProfesional = [{id: 0, quote:"El único modo de hacer un gran trabajo es amar lo que haces", author: "Steve Jobs"},
+const quoteSpanishProfesional1 = [{id: 0, quote:"El único modo de hacer un gran trabajo es amar lo que haces", author: "Steve Jobs"},
     {id: 1,quote:"Nunca pienso en las consecuencias de fallar un gran tiro… cuando se piensa en las consecuencias se está pensando en un resultado negativo ", author: "Michael Jordan"},
     {id: 2,quote:"El dinero no es la clave del éxito; la libertad para poder crear lo es ", author: "Nelson Mandela"},
     {id: 3,quote:"Cuanto más duramente trabajo, más suerte tengo", author: "Gary Player"},
@@ -14,7 +14,7 @@ const quoteSpanishProfesional = [{id: 0, quote:"El único modo de hacer un gran 
     {id: 13,quote:"Ejecuta tus conocimientos con la maestría del que sigue aprendiendo", author: "Jonathan García-Allen"}
 ];
 
-const quoteSpanishShorts = [
+const quoteSpanishShorts2 = [
     {id:0 ,quote: "Cuando pierdas, no pierdas la lección", author: "Dalai Lama "},
     {id:1 ,quote: "No busques los errores, busca un remedio", author: "Henry Ford"},
     {id:2 ,quote: "La vida es una aventura, atrévete ", author: "Teresa de Calcuta"},
@@ -32,7 +32,7 @@ const quoteSpanishShorts = [
     {id:14 ,quote: "El valor de una idea radica en su uso", author: "Thomas Edison"},
 ];
 
-const quoteSpanishPersonalGrowth = [
+const quoteSpanishPersonalGrowth3 = [
     {id:0 ,quote: "Piensa, sueña, cree y atrévete", author: "Walt Disney"},
     {id:1 ,quote: "Los obstáculos son esas cosas atemorizantes que ves cuando apartas los ojos de tu meta ", author: "Henry Ford"},
     {id:2 ,quote: "Asegúrate de que colocas tus pies en el lugar correcto, y luego mantente firme", author: "Abraham Lincoln"},
@@ -47,12 +47,12 @@ const quoteSpanishPersonalGrowth = [
     {id:11 ,quote: "Solo aquellos que se arriesgan a ir demasiado lejos pueden descubrir lo lejos que pueden llegar", author: "T.S. Eliot"},
     {id:12 ,quote: "Del sufrimiento emergieron las almas más fuertes, los caracteres sólidos tienen cicatrices", author: "Khalil Gibran"},
     {id:13 ,quote: "El universo no conspira contra ti, pero tampoco se desvía para alinear tu camino", author: "Tim Ferriss"},
-    {id:14 ,quote: "Con autodisciplina casi todo es posible", author: "Theodore Roosevelt"}
+    {id:14 ,quote: "Con autodisciplina casi todo es posible", author: "Theodore Roosevelt"},
     {id:15 ,quote: "", author: ""},
     {id:16 ,quote: "", author: ""}
 ];
 
-const quoteSpanishCelebrated = [
+const quoteSpanishCelebrated4 = [
     {id:0 ,quote: "La innovación distingue al líder del seguidor ", author: "Steve Jobs "},
     {id:1 ,quote: "Si puedes soñarlo, puedes hacerlo", author: "Walt Disney"},
     {id:2 ,quote: "El secreto para salir adelante es comenzar ", author: "Mark Twain"},
@@ -70,7 +70,7 @@ const quoteSpanishCelebrated = [
     {id:14 ,quote: "El 80% del éxito se basa simplemente en insistir ", author: "Woody Allen"}
 ];
 
-const quoteSpanishOfLife = [
+const quoteSpanishOfLife5 = [
     {id:0 ,quote: "Cree que puedes y casi lo habrás logrado", author: "Theodore Roosevelt"},
     {id:1 ,quote: "No importa lo que te diga la gente, las palabras y las ideas pueden cambiar el mundo", author: "Robin Williams"},
     {id:2 ,quote: "Si tienes un sueño y crees en él, corres el riesgo de que se convierta en realidad ", author: "Walt Disney"},
@@ -88,7 +88,7 @@ const quoteSpanishOfLife = [
     {id:14 ,quote: "Nunca es demasiado tarde para ser lo que podrías haber sido", author: "George Eliot"}
 ];
 
-const quoteSpanishPositive = [
+const quoteSpanishPositive6 = [
     {id:0 ,quote: "Puedo aceptar el fracaso pero no puedo aceptar no intentarlo ", author: "Michael Jordan"},
     {id:1 ,quote: "La mejor forma de predecir el futuro es creándolo", author: "Abraham Lincoln "},
     {id:2 ,quote: "Un día despertarás y descubrirás que no tienes más tiempo para hacer lo que soñabas. El momento es ahora. Actúa ", author: "Paulo Coelho"},
@@ -106,7 +106,7 @@ const quoteSpanishPositive = [
     {id:14 ,quote: "La forma más rápida de cambiar es convivir con personas que ya son como quieres ser", author: "Reid Hoffman"}
 ];
 
-const quoteSpanishBeHappy = [
+const quoteSpanishBeHappy7 = [
     {id:0 ,quote: "La felicidad no es algo que pospones para el futuro; es algo que diseñas para el presente", author: "Jim Rohn"},
     {id:1 ,quote: "La alegría es contagiosa y siempre consigue descubrir una solución donde la lógica sólo encontró una explicación para el error", author: "Paulo Coelho"},
     {id:2 ,quote: "Vive la vida que amas. Ama la vida que vives ", author: "Bob Marley"},
@@ -126,7 +126,7 @@ const quoteSpanishBeHappy = [
     {id:16 ,quote: "", author: ""}
 ];
 
-const quoteSpanishInspiring = [
+const quoteSpanishInspiring8 = [
     {id:1 ,quote: "Alguien se sienta en la sombra porque alguien plantó un árbol hace mucho tiempo", author: "Warren Buffett"},
     {id:2 ,quote: "Avanza con confianza en la dirección de tus sueños ", author: "Thoreau"},
     {id:3 ,quote: "La diligencia es la madre de la buena suerte ", author: "Benjamin Franklin"},
@@ -144,7 +144,7 @@ const quoteSpanishInspiring = [
     {id:15 ,quote: "La única manera de encontrar los límites de lo posible es ir más allá de lo imposible", author: "Arthur C. Clarke"},
 ];
 
-const quoteSpanishNice = [
+const quoteSpanishNice9 = [
     {id:1 ,quote: "Casi todas las cosas buenas que suceden en el mundo, nacen de una actitud de aprecio por los demás ", author: "Dalai Lama"},
     {id:2 ,quote: "Donde reina el amor, siempre sobran las leyes ", author: "Platón"},
     {id:3 ,quote: "Amarse a uno mismo es el comienzo de una larga vida romántica ", author: "Oscar Wilde"},
@@ -162,7 +162,7 @@ const quoteSpanishNice = [
     {id:15 ,quote: "El amor no mira con los ojos, sino con el alma", author: "William Shakespeare"}
 ];
 
-const quoteSpanishPositiveThinking = [
+const quoteSpanishPositiveThinking10 = [
     {id:1 ,quote: "La mejor forma de olvidar las malas cosas de la vida es aprender a recordar las cosas buenas ", author: "Mark Amend"},
     {id:2 ,quote: "Árbol de la esperanza, mantente firme ", author: "Frida Kahlo"},
     {id:3 ,quote: "El éxito es la capacidad de ir de fracaso en fracaso sin perder el entusiasmo", author: "Winston Churchill"},
@@ -180,21 +180,41 @@ const quoteSpanishPositiveThinking = [
     {id:15 ,quote: "Pon tu corazón, mente y alma incluso en los actos más pequeños. Ese es el secreto del éxito ", author: "Swami Sivananda"},
 ];
 
-// const quoteSpanish = [
-//     {id:1 ,quote: "", author: ""},
-//     {id:2 ,quote: "", author: ""},
-//     {id:3 ,quote: "", author: ""},
-//     {id:4 ,quote: "", author: ""},
-//     {id:5 ,quote: "", author: ""},
-//     {id:6 ,quote: "", author: ""},
-//     {id:7 ,quote: "", author: ""},
-//     {id:8 ,quote: "", author: ""},
-//     {id:9 ,quote: "", author: ""},
-//     {id:10 ,quote: "", author: ""},
-//     {id:11 ,quote: "", author: ""},
-//     {id:12 ,quote: "", author: ""},
-//     {id:13 ,quote: "", author: ""},
-//     {id:14 ,quote: "", author: ""},
-//     {id:15 ,quote: "", author: ""},
-//     {id:16 ,quote: "", author: ""}
-// ];
+const quoteEnglishLife1 = [
+    {id:1 ,quote: "Not in doing what you like, but in liking what you do is the secret of happiness.", author: "J.M. Barrie"},
+    {id:2 ,quote: "My father gave me the best advice of my life. He said, ``Whatever you do, don't wake up at 65 years old and think about what you should have done with your life.``", author: "George Clooney"},
+    {id:3 ,quote: "My father used to say, ``Don't raise your voice. Improve your argument.``", author: "Archbishop Desmond Tutu"},
+    {id:4 ,quote: "You are only young once. After that you have to think up some other excuse.", author: "Billy Arthur"},
+    {id:5 ,quote: "Monsters are real, and ghosts are real too. They live inside us—and sometimes, they win.", author: "Stephen King"},
+    {id:6 ,quote: "Life is what happens to us while we are making other plans.", author: "Allen Saunders"},
+    {id:7 ,quote: "People who complain that they don't get all they deserve should congratulate themselves.", author: "The Irish Times "},
+    {id:8 ,quote: "One good way to test your memory is to try to remember the things that worried you yesterday.", author: "Toronto Star"},
+    {id:9 ,quote: "You're never too broken to be fixed.", author: "Jonathan Van Ness"},
+    {id:10 ,quote: "Greed is envy with its sleeves rolled up.", author: "George F. Will "},
+    {id:11 ,quote: "Never fear shadows. They simply mean there's a light shining nearby.", author: "Ruth E. Renkel"},
+    {id:12 ,quote: "Let us endeavor so to live, that when we come to die, even the undertaker will be sorry.", author: "Mark Twain"},
+    {id:13 ,quote: "", author: ""},
+    {id:14 ,quote: "", author: ""},
+    {id:15 ,quote: "", author: ""},
+    {id:16 ,quote: "", author: ""}
+];
+
+const quoteEnglishLife2 = [
+    {id:1 ,quote: "", author: ""},
+    {id:2 ,quote: "", author: ""},
+    {id:3 ,quote: "", author: ""},
+    {id:4 ,quote: "", author: ""},
+    {id:5 ,quote: "", author: ""},
+    {id:6 ,quote: "", author: ""},
+    {id:7 ,quote: "", author: ""},
+    {id:8 ,quote: "", author: ""},
+    {id:9 ,quote: "", author: ""},
+    {id:10 ,quote: "", author: ""},
+    {id:11 ,quote: "", author: ""},
+    {id:12 ,quote: "", author: ""},
+    {id:13 ,quote: "", author: ""},
+    {id:14 ,quote: "", author: ""},
+    {id:15 ,quote: "", author: ""},
+    {id:16 ,quote: "", author: ""}
+];
+
