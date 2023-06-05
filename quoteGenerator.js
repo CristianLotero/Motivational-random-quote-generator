@@ -193,6 +193,24 @@ const quoteEnglishLife1 = [
     {id:10 ,quote: "Greed is envy with its sleeves rolled up.", author: "George F. Will "},
     {id:11 ,quote: "Never fear shadows. They simply mean there's a light shining nearby.", author: "Ruth E. Renkel"},
     {id:12 ,quote: "Let us endeavor so to live, that when we come to die, even the undertaker will be sorry.", author: "Mark Twain"},
+    {id:13 ,quote: "You only have to do a very few things right in your life—so long as you don't do too many things wrong.", author: "Warren Buffett"},
+    {id:14 ,quote: "Accept that some days you're the pigeon, and some days you're the statue.", author: "Roger C. Andersen"},
+    {id:15 ,quote: "Success is falling nine times and getting up ten.", author: "Jon Bon Jovi "}
+];
+
+const quoteEnglishTime2 = [
+    {id:1 ,quote: "Time is the longest distance between two places.", author: "Tennessee Williams"},
+    {id:2 ,quote: "The bad news is time flies. The good news is you're the pilot.", author: "Michael Altshuler"},
+    {id:3 ,quote: "The best thing about the future is that it comes one day at a time.", author: "Abraham Lincoln"},
+    {id:4 ,quote: "Don't spend time beating on a wall, hoping to transform it into a door.", author: "Coco Chanel"},
+    {id:5 ,quote: "", author: ""},
+    {id:6 ,quote: "", author: ""},
+    {id:7 ,quote: "", author: ""},
+    {id:8 ,quote: "", author: ""},
+    {id:9 ,quote: "", author: ""},
+    {id:10 ,quote: "", author: ""},
+    {id:11 ,quote: "", author: ""},
+    {id:12 ,quote: "", author: ""},
     {id:13 ,quote: "", author: ""},
     {id:14 ,quote: "", author: ""},
     {id:15 ,quote: "", author: ""},
@@ -217,4 +235,3 @@ const quoteEnglishLife2 = [
     {id:15 ,quote: "", author: ""},
     {id:16 ,quote: "", author: ""}
 ];
-
