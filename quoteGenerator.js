@@ -208,7 +208,24 @@ const quoteEnglishTime2 = [
     {id:7 ,quote: "I am definitely going to take a course on time management … just as soon as I can work it into my schedule.", author: "Louis E. Boone"}
 ];
 
-const quoteEnglishLife2 = [
+const quoteEnglishBeYourself3 = [
+    {id:1 ,quote: "Be yourself; everyone else is already taken.", author: "Oscar Wilde"},
+    {id:2 ,quote: "The most important consequence of self-sufficiency is freedom.", author: "Epicurus"},
+    {id:3 ,quote: "To be beautiful means to be yourself. You don't need to be accepted by others. You need to accept yourself.", author: "Bindi Irwin"},
+    {id:4 ,quote: "Can you remember who you were, before the world told you who you should be?", author: "Charles Bukowski"},
+    {id:5 ,quote: "If you don't set your own values, other people will.", author: "Shane Parrish"},
+    {id:6 ,quote: "You change the world by being yourself.", author: "Yoko Ono"},
+    {id:7 ,quote: "Trying to define yourself is like trying to bite your own teeth.", author: "Alan Watts"},
+    {id:8 ,quote: "I am not what happened to me, I am what I choose to become.", author: "Carl Jung"},
+    {id:9 ,quote: "You are who you are when nobody's watching.", author: "Stephen Fry"},
+    {id:10 ,quote: "Existence wants you to be you.", author: "Osho"},
+    {id:11 ,quote: "No one ever made a difference by being like everyone else.", author: "Buckminster Fuller"},
+    {id:12 ,quote: "When someone is properly grounded in life, they shouldn't have to look outside themselves for approval.", author: "Epictetus"},
+    {id:13 ,quote: "You eliminate competition by being yourself.", author: "Dan Go"},
+    {id:14 ,quote: "The tighter you cling to your current identity, the harder it becomes to grow beyond it.", author: "James Clear"}
+];
+
+const quoteEnglish4 = [
     {id:1 ,quote: "", author: ""},
     {id:2 ,quote: "", author: ""},
     {id:3 ,quote: "", author: ""},
