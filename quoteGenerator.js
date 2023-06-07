@@ -237,7 +237,7 @@ const quoteEnglishStrength4 = [
     {id:9 ,quote: "Life is very interesting…in the end, some of your greatest pains become your greatest strengths.", author: "Drew Barrymore."},
     {id:10 ,quote: "Where there is no struggle, there is no strength.", author: "Oprah Winfrey"},
     {id:11 ,quote: "Character cannot be developed in ease and quiet. Only through experience of trial and suffering can the soul be strengthened, ambition inspired, and success achieved.", author: "Hellen Keller"},
-    {id:12 ,quote: "The harder you fall, the heavier your heart; the heavier your heart, the stronger you climb; the stronger you climb, the higher your pedestal.", author: "Criss Jami"}
+    {id:12 ,quotew: "The harder you fall, the heavier your heart; the heavier your heart, the stronger you climb; the stronger you climb, the higher your pedestal.", author: "Criss Jami"}
 ];
 
 const quoteEnglish4 = [
