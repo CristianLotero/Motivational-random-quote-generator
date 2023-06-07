@@ -225,6 +225,21 @@ const quoteEnglishBeYourself3 = [
     {id:14 ,quote: "The tighter you cling to your current identity, the harder it becomes to grow beyond it.", author: "James Clear"}
 ];
 
+const quoteEnglishStrength4 = [
+    {id:1 ,quote: "Do not judge me by my success, judge me by how many times I fell down and got back up again.", author: "Nelson Mandela"},
+    {id:2 ,quote: "If you can't fly then run, if you can't run then walk, if you can't walk then crawl, but whatever you do you have to keep moving forward.", author: "Martin Luther King, Jr."},
+    {id:3 ,quote: "We will either find a way, or make one.", author: "Anibal Barca."},
+    {id:4 ,quote: "I can be changed by what happens to me. But I refuse to be reduced by it.", author: "Maya Angelou"},
+    {id:5 ,quote: "When you have exhausted all possibilities, remember this: you haven't.", author: "Thomas A. Edison"},
+    {id:6 ,quote: "We do not have to become heroes overnight. Just a step at a time, meeting each thing that comes up, seeing it is not as dreadful as it appeared, discovering we have the strength to stare it down.", author: "Eleanor Roosevelt"},
+    {id:7 ,quote: "You have power over your mind — not outside events. Realize this, and you will find strength.", author: "Marcus Aurelius"},
+    {id:8 ,quote: "Mastering others is strength, mastering yourself is true power.", author: "Lao Tzu"},
+    {id:9 ,quote: "Life is very interesting…in the end, some of your greatest pains become your greatest strengths.", author: "Drew Barrymore."},
+    {id:10 ,quote: "Where there is no struggle, there is no strength.", author: "Oprah Winfrey"},
+    {id:11 ,quote: "Character cannot be developed in ease and quiet. Only through experience of trial and suffering can the soul be strengthened, ambition inspired, and success achieved.", author: "Hellen Keller"},
+    {id:12 ,quote: "The harder you fall, the heavier your heart; the heavier your heart, the stronger you climb; the stronger you climb, the higher your pedestal.", author: "Criss Jami"}
+];
+
 const quoteEnglish4 = [
     {id:1 ,quote: "", author: ""},
     {id:2 ,quote: "", author: ""},
