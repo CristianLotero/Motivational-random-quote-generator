@@ -240,6 +240,31 @@ const quoteEnglishStrength4 = [
     {id:12 ,quotew: "The harder you fall, the heavier your heart; the heavier your heart, the stronger you climb; the stronger you climb, the higher your pedestal.", author: "Criss Jami"}
 ];
 
+const quoteEnglishPositive5 = [
+    {id:1 ,quote: "There is a force in the universe, which, if we permit it, will flow through us and produce miraculous results.", author: "Mahatma Gandhi"},
+    {id:2 ,quote: "Turn your wounds into wisdom.", author: "Oprah Winfrey"},
+    {id:3 ,quote: "I am in the right place, at the right time, doing the right thing.", author: "Louise Hay"},
+    {id:4 ,quote: "As soon as you trust yourself, you will know how to live.", author: "John Wolfgang von Goethe"},
+    {id:5 ,quote: "If the future road looks ominous or unpromising, and the roads back uninviting, then we need to gather our resolve and carrying only the necessary baggage, step off that road and into another direction. ", author: "Maya Angelou"},
+    {id:6 ,quote: "What matters most is how you walk through the fire.", author: "Charles Bukowski"},
+    {id:7 ,quote: "Reality is something you rise above.", author: "Liza Minnelli"},
+    {id:8 ,quote: "Imagination is everything. It is the preview of life's coming attractions.", author: "Albert Einstein"},
+    {id:9 ,quote: "There will come a time when you believe everything is finished. That will be the beginning.", author: "Louis L'Amour"},
+    {id:10 ,quote: "In the depth of winter, I finally learned that within me lies an invincible summer.", author: "Albert Camus"},
+    {id:11 ,quote: "In this world the unseen has power.", author: "Apache proverb"},
+    {id:12 ,quote: "Remember that you are unique. If that is not fulfilled, then something wonderful has been lost.", author: "Martha Graham"},
+    {id:13 ,quote: "Hello, fear. Thank you for being here. You're my indication that I'm doing what I need to do", author: "Cheryl Strayed in Brave Enough"},
+    {id:14 ,quote: "As we each step into our divine life purpose, we really are changing the world. The world needs us now.", author: "Justin Michael Williams"},
+    {id:15 ,quote: "Happiness is when what you think, what you say, and what you do are in harmony.", author: "Mahatma Gandhi"},
+    {id:16 ,quote: "I was made exactly the way I was meant to be made in who I am and my personality and the way I was born.", author: "Megan Rapinoe"},
+    {id:17 ,quote: "We're all given something to do. And when we don't follow what we're supposed to do, we always know when we're off track.", author: "Joy Harjo"},
+    {id:18 ,quote: "Magical things happen because we exist as part of the great mystery. We don't need an answer to everything that happens to us.", author: "Grandmother Flordemayo"},
+    {id:19 ,quote: "The key is to be here fully connected with the moment, paying attention to the ordinary details of life.", author: "Pema Chödrön"},
+    {id:20 ,quote: "I have met myself and I am going to care for her fiercely.", author: "Glennon Doyle"},
+    {id:21 ,quote: "Nothing is impossible. The word itself says `I'm possible`.", author: "Audrey Hepburn"},
+    {id:22 ,quote: "It's kind of fun to do the impossible.", author: "Walt Disney"}
+];
+
 const quoteEnglish4 = [
     {id:1 ,quote: "", author: ""},
     {id:2 ,quote: "", author: ""},
