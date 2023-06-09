@@ -265,6 +265,25 @@ const quoteEnglishPositive5 = [
     {id:22 ,quote: "It's kind of fun to do the impossible.", author: "Walt Disney"}
 ];
 
+const quoteEnglishConfidence6 = [
+    {id:1 ,quote: "Until you value yourself, you won't value your time. Until you value your time, you will not do anything with it. ", author: "M. Scott Peck, psychiatrist"},
+    {id:2 ,quote: "Because one is content with oneself, one doesn't need others approval", author: "Laozi, ancient philosopher"},
+    {id:3 ,quote: "", author: ""},
+    {id:4 ,quote: "", author: ""},
+    {id:5 ,quote: "", author: ""},
+    {id:6 ,quote: "", author: ""},
+    {id:7 ,quote: "", author: ""},
+    {id:8 ,quote: "", author: ""},
+    {id:9 ,quote: "", author: ""},
+    {id:10 ,quote: "", author: ""},
+    {id:11 ,quote: "", author: ""},
+    {id:12 ,quote: "", author: ""},
+    {id:13 ,quote: "", author: ""},
+    {id:14 ,quote: "", author: ""},
+    {id:15 ,quote: "", author: ""},
+    {id:16 ,quote: "", author: ""}
+];
+
 const quoteEnglish4 = [
     {id:1 ,quote: "", author: ""},
     {id:2 ,quote: "", author: ""},
