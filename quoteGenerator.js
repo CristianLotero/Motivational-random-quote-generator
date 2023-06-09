@@ -270,18 +270,17 @@ const quoteEnglishConfidence6 = [
     {id:2 ,quote: "Because one is content with oneself, one doesn't need others approval", author: "Laozi, ancient philosopher"},
     {id:3 ,quote: "“When you have a lot of confidence and you feel like nobody can beat you, it's game over for everyone else.", author: "Jason Day, pro golfer"},
     {id:4 ,quote: "Self-confidence can be learned, practiced, and mastered—just like any other skill. Once you master it, everything in your life will change for the better.", author: "Barrie Davenport, self-improvement guru"},
-    {id:5 ,quote: "", author: ""},
-    {id:6 ,quote: "", author: ""},
-    {id:7 ,quote: "", author: ""},
-    {id:8 ,quote: "", author: ""},
-    {id:9 ,quote: "", author: ""},
-    {id:10 ,quote: "", author: ""},
-    {id:11 ,quote: "", author: ""},
-    {id:12 ,quote: "", author: ""},
-    {id:13 ,quote: "", author: ""},
-    {id:14 ,quote: "", author: ""},
-    {id:15 ,quote: "", author: ""},
-    {id:16 ,quote: "", author: ""}
+    {id:5 ,quote: "It took me a long time not to judge myself through someone else's eyes.", author: "Sally Field, actress and director"},
+    {id:6 ,quote: "Confidence doesn't come out of nowhere. It's a result of…hours and days and weeks and years of constant work and dedication.", author: "Roger Staubach, pro football player"},
+    {id:7 ,quote: "With confidence, you have won before you have started.", author: "Marcus Garvey, activist and orator"},
+    {id:8 ,quote: "To love oneself is the beginning of a lifelong romance.", author: "Oscar Wilde, writer"},
+    {id:9 ,quote: "Experience tells you what to do; confidence allows you to do it.", author: "Stan Smith, tennis player"},
+    {id:10 ,quote: "Skill and confidence are an unconquered army.", author: "George Herbert, poet"},
+    {id:11 ,quote: "When you have confidence, you can have a lot of fun. And when you have fun, you can do amazing things.", author: "Joe Namath, football player"},
+    {id:12 ,quote: "“Get more confidence by doing things that excite and frighten you.", author: "Jessica Williams, actress"},
+    {id:13 ,quote: "Nurture your mind with great thoughts, for you will never go any higher than you think.", author: "Benjamin Disraeli, former UK Prime Minister"},
+    {id:14 ,quote: "Once you become self-conscious, there is no end to it; once you start to doubt, there is no room for anything else.", author: "Mignon McLaughlin"},
+    {id:15 ,quote: "Health is the greatest possession. Contentment is the greatest treasure. Confidence is the greatest friend.", author: "Laozi."}
 ];
 
 const quoteEnglish4 = [
