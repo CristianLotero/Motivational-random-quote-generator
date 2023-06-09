@@ -268,8 +268,8 @@ const quoteEnglishPositive5 = [
 const quoteEnglishConfidence6 = [
     {id:1 ,quote: "Until you value yourself, you won't value your time. Until you value your time, you will not do anything with it. ", author: "M. Scott Peck, psychiatrist"},
     {id:2 ,quote: "Because one is content with oneself, one doesn't need others approval", author: "Laozi, ancient philosopher"},
-    {id:3 ,quote: "", author: ""},
-    {id:4 ,quote: "", author: ""},
+    {id:3 ,quote: "“When you have a lot of confidence and you feel like nobody can beat you, it's game over for everyone else.", author: "Jason Day, pro golfer"},
+    {id:4 ,quote: "Self-confidence can be learned, practiced, and mastered—just like any other skill. Once you master it, everything in your life will change for the better.", author: "Barrie Davenport, self-improvement guru"},
     {id:5 ,quote: "", author: ""},
     {id:6 ,quote: "", author: ""},
     {id:7 ,quote: "", author: ""},
