@@ -283,13 +283,28 @@ const quoteEnglishConfidence6 = [
     {id:15 ,quote: "Health is the greatest possession. Contentment is the greatest treasure. Confidence is the greatest friend.", author: "Laozi."}
 ];
 
-const quoteEnglish4 = [
+const quoteEnglishKindness7 = [
+    {id:1 ,quote: "Carry out a random act of kindness, with no expectation of reward, safe in the knowledge that one day someone might do the same for you.", author: "Princess Diana."},
+    {id:2 ,quote: "Remember, there's no such thing as a small act of kindness. Every act creates a ripple with no logical end.", author: "Scott Adams"},
+    {id:3 ,quote: "Human kindness has never weakened the stamina or softened the fiber of a free people.", author: "Franklin D. Roosevelt."},
+    {id:4 ,quote: "When you callously ignore the suffering of others, you lose the capacity to share their happiness, too.", author: "Albert Schweitzer."},
+    {id:5 ,quote: "A kind word is like a spring day.", author: "Russian proverb"},
+    {id:6 ,quote: "Do things for people not because of who they are or what they do in return, but because of who you are.", author: "Harold S. Kushner"},
+    {id:7 ,quote: "You can accomplish by kindness what you cannot by force.", author: "Publilius Syrus"},
+    {id:8 ,quote: "Kindness is a passport that opens doors and fashions friends. It softens hearts and molds relationships that can last lifetimes.", author: "Joseph B. Wirthlin"},
+    {id:9 ,quote: "When I was young, I admired clever people. Now that I am old, I admire kind people.", author: "Abraham Joshua Heschel"},
+    {id:10 ,quote: "Never look down on anybody unless you're helping them up.", author: "Jesse Jackson"},
+    {id:11 ,quote: "The smallest act of kindness is worth more than the greatest intention.", author: "Kahlil Gibran"},
+    {id:12 ,quote: "Kindness is more important than wisdom, and the recognition of this is the beginning of wisdom.", author: "Theodore Isaac Rubin"}
+];
+
+const quoteEnglishSpiritual8 = [
     {id:1 ,quote: "", author: ""},
     {id:2 ,quote: "", author: ""},
     {id:3 ,quote: "", author: ""},
     {id:4 ,quote: "", author: ""},
     {id:5 ,quote: "", author: ""},
-    {id:6 ,quote: "", author: ""},
+    {id:6 ,quote: "", author: ""}
     {id:7 ,quote: "", author: ""},
     {id:8 ,quote: "", author: ""},
     {id:9 ,quote: "", author: ""},
@@ -297,7 +312,28 @@ const quoteEnglish4 = [
     {id:11 ,quote: "", author: ""},
     {id:12 ,quote: "", author: ""},
     {id:13 ,quote: "", author: ""},
-    {id:14 ,quote: "", author: ""},
+    {id:14 ,quote: "", author: ""}
     {id:15 ,quote: "", author: ""},
-    {id:16 ,quote: "", author: ""}
+    {id:16 ,quote: "", author: ""},
+    {id:17 ,quote: "", author: ""}
+];
+
+const quoteEnglish9 = [
+    {id:1 ,quote: "", author: ""},
+    {id:2 ,quote: "", author: ""},
+    {id:3 ,quote: "", author: ""},
+    {id:4 ,quote: "", author: ""},
+    {id:5 ,quote: "", author: ""},
+    {id:6 ,quote: "", author: ""}
+    {id:7 ,quote: "", author: ""},
+    {id:8 ,quote: "", author: ""},
+    {id:9 ,quote: "", author: ""},
+    {id:10 ,quote: "", author: ""},
+    {id:11 ,quote: "", author: ""},
+    {id:12 ,quote: "", author: ""},
+    {id:13 ,quote: "", author: ""},
+    {id:14 ,quote: "", author: ""}
+    {id:15 ,quote: "", author: ""},
+    {id:16 ,quote: "", author: ""},
+    {id:17 ,quote: "", author: ""}
 ];
