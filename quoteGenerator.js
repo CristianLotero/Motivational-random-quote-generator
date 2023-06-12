@@ -298,24 +298,30 @@ const quoteEnglishKindness7 = [
     {id:12 ,quote: "Kindness is more important than wisdom, and the recognition of this is the beginning of wisdom.", author: "Theodore Isaac Rubin"}
 ];
 
+
+//Acá estoy encontrando oro puro
 const quoteEnglishSpiritual8 = [
-    {id:1 ,quote: "", author: ""},
-    {id:2 ,quote: "", author: ""},
-    {id:3 ,quote: "", author: ""},
-    {id:4 ,quote: "", author: ""},
-    {id:5 ,quote: "", author: ""},
-    {id:6 ,quote: "", author: ""}
-    {id:7 ,quote: "", author: ""},
-    {id:8 ,quote: "", author: ""},
-    {id:9 ,quote: "", author: ""},
-    {id:10 ,quote: "", author: ""},
-    {id:11 ,quote: "", author: ""},
-    {id:12 ,quote: "", author: ""},
-    {id:13 ,quote: "", author: ""},
-    {id:14 ,quote: "", author: ""}
-    {id:15 ,quote: "", author: ""},
-    {id:16 ,quote: "", author: ""},
-    {id:17 ,quote: "", author: ""}
+    {id:1 ,quote: "When one door of happiness closes, another opens, but often we look so long at the closed door that we do not see the one which has been opened for us.", author: "Helen Keller"},
+    {id:2 ,quote: "Practice the pause. When in doubt, pause. When angry, pause. When tired, pause. When stressed, pause. And when you pause, pray.", author: "Toby Mac"},
+    {id:3 ,quote: "If you live up to your privilege, the angels cannot be restrained from being your associates.", author: "Joseph Smith"},
+    {id:4 ,quote: "Peace is the result of retraining your mind to process life as it is, rather than as you think it should be.", author: "Wayne Dyer"},
+    {id:5 ,quote: "When you consider things like the stars, our affairs don't seem to matter very much, do they?", author: "Virginia Woolf"},
+    {id:6 ,quote: "Set peace of mind as your highest goal, and organize your life around it.", author: "Brian Tracy"},
+    {id:7 ,quote: "I don't want to cover up anymore. Not my face, not my mind, not my soul, not my thoughts, not my dreams, not my struggles, not my emotional growth. Nothing.", author: "Alicia Keys"},
+    {id:8 ,quote: "It does not matter how slowly you go as long as you do not stop.", author: "Confucius"},
+    {id:9 ,quote: "Yesterday I was clever, so I wanted to change the world. Today I am wise, so I am changing myself.", author: "Rumi"},
+    {id:10 ,quote: "To have been loved so deeply, even though the person who loved us is gone, will give us some protection forever.", author: "J.K. Rowling, Harry Potter"},
+    {id:11 ,quote: "“If you don't like the road you're walking, start paving another one.", author: "Dolly Parton"},
+    {id:12 ,quote: "God whispers to us in our pleasures, speaks in our consciences, but shouts in our pains. It is his megaphone to rouse a deaf world.", author: "C.S. Lewis, The Problem of Pain"},
+    {id:13 ,quote: "All we have to decide is what to do with the time that is given us.", author: "J.R.R. Tolkien, The Fellowship of the Ring"},
+    {id:14 ,quote: "Make your own Bible. Select and collect all the words and sentences that in all your readings have been to you like the blast of a trumpet", author: "Ralph Waldo Emerson"},
+    {id:15 ,quote: "People seem not to see that their opinion of the world is also a confession of character.", author: "Ralph Waldo Emerson, “Worship”"},
+    {id:16 ,quote: "Until you make the unconscious conscious, it will direct your life and you will call it fate.", author: "Carl Jung"},
+    {id:17 ,quote: "One must still have chaos in oneself to be able to give birth to a dancing star.", author: "Friedrich Nietzsche"},
+    {id:18 ,quote: "I would believe only in a god who could dance. And when I saw my devil I found him serious, thorough, profound, and solemn: it was the spirit of gravity - through him all things fall.", author: "Friedrich Nietzsche"},
+    {id:19 ,quote: "And above all, remember that the meaning of life is to build a life as if it were a work of art.", author: "Rabbi Abraham Joshua Heschel"},
+    {id:20 ,quote: "Life's barely long enough to get good at one thing. So be careful what you get good at.", author: "Matthew McConaughey as Rust Cohle in True Detective"},
+    {id:21 ,quote: "If the sun comes up, I have a chance.", author: "Venus Williams"},
 ];
 
 const quoteEnglish9 = [
@@ -324,7 +330,7 @@ const quoteEnglish9 = [
     {id:3 ,quote: "", author: ""},
     {id:4 ,quote: "", author: ""},
     {id:5 ,quote: "", author: ""},
-    {id:6 ,quote: "", author: ""}
+    {id:6 ,quote: "", author: ""},
     {id:7 ,quote: "", author: ""},
     {id:8 ,quote: "", author: ""},
     {id:9 ,quote: "", author: ""},
@@ -332,7 +338,7 @@ const quoteEnglish9 = [
     {id:11 ,quote: "", author: ""},
     {id:12 ,quote: "", author: ""},
     {id:13 ,quote: "", author: ""},
-    {id:14 ,quote: "", author: ""}
+    {id:14 ,quote: "", author: ""},
     {id:15 ,quote: "", author: ""},
     {id:16 ,quote: "", author: ""},
     {id:17 ,quote: "", author: ""}
