@@ -324,7 +324,35 @@ const quoteEnglishSpiritual8 = [
     {id:21 ,quote: "If the sun comes up, I have a chance.", author: "Venus Williams"},
 ];
 
-const quoteEnglish9 = [
+const quoteEnglishChange9 = [
+    {id:1 ,quote: "The first step toward change is awareness. The second step is acceptance.", author: "Nathaniel Branden"},
+    {id:2 ,quote: "You must be the change you wish to see in the world.", author: "Mahatma Gandhi."},
+    {id:3 ,quote: "Life is about not knowing, having to change, taking the moment and making the best of it, without knowing what's going to happen next.", author: "Gilda Radner."},
+    {id:4 ,quote: "You never change your life until you step out of your comfort zone; change begins at the end of your comfort zone.", author: "Roy T. Bennett."},
+    {id:5 ,quote: "If you don't like something, change it. If you can't change it, change your attitude.", author: "Maya Angelou."},
+    {id:6 ,quote: "There is nothing so stable as change.", author: "Bob Dylan"},
+    {id:7 ,quote: "We all have big changes in our lives that are more or less a second chance.", author: "Harrison Ford"},
+    {id:8 ,quote: "When you come out of the storm, you won't be the same person who walked in. That's what this storm's all about.", author: "Haruki Murakami"},
+    {id:9 ,quote: "Things don't have to change the world to be important.", author: "Steve Jobs"},
+    {id:10 ,quote: "Let him who would move the world first move himself.", author: "Socrates"},
+    {id:11 ,quote: "True life is lived when tiny changes occur.", author: "Leo Tolstoy"},
+    {id:12 ,quote: "A bend in the road is not the end of the road…unless you fail to make the turn.", author: "Helen Keller"},
+    {id:13 ,quote: "Change your thoughts and you change your world.", author: "Norman Vincent Peale"},
+    {id:14 ,quote: "Change is hardest at the beginning, messiest in the middle and best at the end.", author: "Robin Sharma"},
+    {id:15 ,quote: "Remember that life's big changes rarely give advance warning.", author: "H. Jackson Brown, Jr."},
+    {id:16 ,quote: "A tiny change today brings a dramatically different tomorrow.", author: "Richard Bach"},
+    {id:17 ,quote: "Anyone who isn't embarrassed of who they were last year probably isn't learning enough.", author: "Alain de Botton"},
+    {id:18 ,quote: "Change your life today. Don't gamble on the future, act now, without delay.", author: "Simone de Beauvoir"},
+    {id:19 ,quote: "A change is as good as a rest.", author: "Stephen King"},
+    {id:20 ,quote: "There are three constants in life…change, choice and principles.", author: "Stephen Covey"},
+    {id:21 ,quote: "I can't change the direction of the wind, but I can adjust my sails to always reach my destination.", author: "Jimmy Dean"},
+    {id:22 ,quote: "We cannot change the cards we are dealt, just how we play the game.", author: "Randy Pausch"},
+    {id:23 ,quote: "The key to change…is to let go of fear.", author: "Rosanne Cash"},
+    {id:24 ,quote: "Change is not an event, it's a process.", author: "Cheryl James "},
+    {id:24 ,quote: "Every day the clock resets. Your wins don't matter. Your failures don't matter. Don't stress on what was, fight for what could be.", author: "Sean Higgins"}
+];
+
+const quoteEnglish10 = [
     {id:1 ,quote: "", author: ""},
     {id:2 ,quote: "", author: ""},
     {id:3 ,quote: "", author: ""},
