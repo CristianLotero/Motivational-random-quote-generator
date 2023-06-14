@@ -370,11 +370,23 @@ const quoteEnglishSuccess10 = [
     {id:15 ,quote: "The sky isn't the limit—the sky has no limit.", author: "Sarah Barker"},
     {id:16 ,quote: "Work eight hours and sleep eight hours. Make sure they are not the same eight hours.", author: "T. Boone Pickens"},
     {id:17 ,quote: "Don't just stand there; make something happen.", author: "Lee Iacocca"},
-    {id:17 ,quote: "Every success is usually an admission ticket to a new set of decisions.", author: "Henry Kissinger"},
-    {id:17 ,quote: "", author: ""},
-    {id:17 ,quote: "", author: ""},
-    {id:17 ,quote: "", author: ""},
-    {id:17 ,quote: "", author: ""}
+    {id:18 ,quote: "Every success is usually an admission ticket to a new set of decisions.", author: "Henry Kissinger"},
+    {id:19 ,quote: "Success is a lot like a bright white tuxedo. You feel terrific when you get it, but then you're desperately afraid of getting it dirty, of spoiling it in any way.", author: "Conan O'Brien"},
+    {id:20 ,quote: "You only have to do a very few things right in your life—so long as you don't do too many things wrong.", author: "Warren Buffet"},
+    {id:21 ,quote: "Anybody who's really successful has doubts.", author: "Jerry Bruckheimer"},
+    {id:22 ,quote: "There's a ball. There's a hoop. You put the ball through the hoop. That's success.", author: "Kareem Abdul-Jabbar"}
+    {id:23 ,quote: "Success is falling nine times and getting up ten.", author: "Jon Bon Jovi"}
+    {id:24 ,quote: "Success is more permanent when you achieve it without destroying your principles.", author: "Walter Cronkite"}
+    {id:25 ,quote: "If you want to be successful, just meditate, man. God will tell you what people need.", author: "Carlos Santana"}
+    {id:26 ,quote: "There is no point at which you can say, 'Well, I'm successful now. I might as well take a nap.", author: "Carrie Fisher"}
+    {id:27 ,quote: "Winning depends on where you put your priorities. It's usually best to put them over the fence.", author: "Jason Giambi"}
+    {id:28 ,quote: "Celebrate what you've accomplished, but raise the bar a little higher each time you succeed.", author: "Mia Hamm"}
+    {id:29 ,quote: "You cannot be really first-rate at your work if your work is all you are.", author: "Anna Quindlen"}
+    {id:30 ,quote: "Inside of a ring or out, ain't nothing wrong with going down. It's staying down that's wrong.", author: "Muhammad Ali"}
+    {id:31 ,quote: "The person who knows 'how' will always have a job. The person who knows 'why' will always be his boss.", author: "Diane Ravitch"}
+    {id:32 ,quote: "", author: ""}
+    {id:33 ,quote: "", author: ""}
+    {id:34 ,quote: "", author: ""}
 ];
 
 const quoteEnglish11 = [
