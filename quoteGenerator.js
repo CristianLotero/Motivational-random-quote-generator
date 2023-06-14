@@ -352,7 +352,32 @@ const quoteEnglishChange9 = [
     {id:24 ,quote: "Every day the clock resets. Your wins don't matter. Your failures don't matter. Don't stress on what was, fight for what could be.", author: "Sean Higgins"}
 ];
 
-const quoteEnglish10 = [
+const quoteEnglishSuccess10 = [
+    {id:1 ,quote: "I can live with a mistake. What I couldn't live with is sloppiness. And there's a difference.", author: "Dana Canedy"},
+    {id:2 ,quote: "I didn't want to be something cool. I didn't want to be calm. I wanted to be a player that made you say, 'Did you see that?'", author: "Kevin Garnett"},
+    {id:3 ,quote: "There's a saying that if you do what you love, you'll never work a day in your life. I learned that's a total crock. You'll work harder than you ever thought possible, but the tools will feel light in your hands.", author: "Tim Cook"},
+    {id:4 ,quote: "Invest in the success of others. It's not about being the only one that succeeds; it's about multiplying to many.", author: "Steph Curry"},
+    {id:5 ,quote: "Spend 30 minutes a day doing something to help you become the person you secretly would love to be. To do the job you secretly would love to do. If I can tell you anything, it's that you can actually do it. It's more than just that what you want to do is possible, because there are people who are doing it and it was impossible for them at one time too.", author: "Tomi Adeyemi"},
+    {id:6 ,quote: "Some people feel confusion and uncertainty, (which are often things that arrive right before possibility) and do nothing. Don't do nothing.", author: "Alex Dimitrov"},
+    {id:7 ,quote: "There are no miracles. There is only discipline.", author: "Danielle Steel"},
+    {id:8 ,quote: "The 'success' parts of life look good to others, but the best parts are actually the simple, daily experiences. This is true whether you're an actor or a teacher or a waitress. I know because I've been all three.", author: "Lauren Graham"},
+    {id:9 ,quote: "I haven't made one mistake that I haven't used as a stepping stone to get somewhere else. I'm ruthless when it comes to using hard things.", author: "Gwyneth Paltrow"},
+    {id:10 ,quote: "Rules, like streets, can only take you to known places.", author: "Ocean Vuong"},
+    {id:11 ,quote: "Start unknown, finish unforgettable.", author: "Misty Copeland"},
+    {id:12 ,quote: "Be the hardest working person you know. If you're not, someone else will be.", author: "Ian Brennan"},
+    {id:13 ,quote: "I could give example after example of how doing the right thing ended up making us more money.", author: "Yvon Chouinard"},
+    {id:14 ,quote: "Age is not the enemy. Stagnation is the enemy. Complacency is the enemy. Stasis is the enemy.", author: "Twyla Tharp"},
+    {id:15 ,quote: "The sky isn't the limit—the sky has no limit.", author: "Sarah Barker"},
+    {id:16 ,quote: "Work eight hours and sleep eight hours. Make sure they are not the same eight hours.", author: "T. Boone Pickens"},
+    {id:17 ,quote: "Don't just stand there; make something happen.", author: "Lee Iacocca"},
+    {id:17 ,quote: "Every success is usually an admission ticket to a new set of decisions.", author: "Henry Kissinger"},
+    {id:17 ,quote: "", author: ""},
+    {id:17 ,quote: "", author: ""},
+    {id:17 ,quote: "", author: ""},
+    {id:17 ,quote: "", author: ""}
+];
+
+const quoteEnglish11 = [
     {id:1 ,quote: "", author: ""},
     {id:2 ,quote: "", author: ""},
     {id:3 ,quote: "", author: ""},
