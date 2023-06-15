@@ -374,22 +374,41 @@ const quoteEnglishSuccess10 = [
     {id:19 ,quote: "Success is a lot like a bright white tuxedo. You feel terrific when you get it, but then you're desperately afraid of getting it dirty, of spoiling it in any way.", author: "Conan O'Brien"},
     {id:20 ,quote: "You only have to do a very few things right in your life—so long as you don't do too many things wrong.", author: "Warren Buffet"},
     {id:21 ,quote: "Anybody who's really successful has doubts.", author: "Jerry Bruckheimer"},
-    {id:22 ,quote: "There's a ball. There's a hoop. You put the ball through the hoop. That's success.", author: "Kareem Abdul-Jabbar"}
-    {id:23 ,quote: "Success is falling nine times and getting up ten.", author: "Jon Bon Jovi"}
-    {id:24 ,quote: "Success is more permanent when you achieve it without destroying your principles.", author: "Walter Cronkite"}
-    {id:25 ,quote: "If you want to be successful, just meditate, man. God will tell you what people need.", author: "Carlos Santana"}
-    {id:26 ,quote: "There is no point at which you can say, 'Well, I'm successful now. I might as well take a nap.", author: "Carrie Fisher"}
-    {id:27 ,quote: "Winning depends on where you put your priorities. It's usually best to put them over the fence.", author: "Jason Giambi"}
-    {id:28 ,quote: "Celebrate what you've accomplished, but raise the bar a little higher each time you succeed.", author: "Mia Hamm"}
-    {id:29 ,quote: "You cannot be really first-rate at your work if your work is all you are.", author: "Anna Quindlen"}
-    {id:30 ,quote: "Inside of a ring or out, ain't nothing wrong with going down. It's staying down that's wrong.", author: "Muhammad Ali"}
+    {id:22 ,quote: "There's a ball. There's a hoop. You put the ball through the hoop. That's success.", author: "Kareem Abdul-Jabbar"},
+    {id:23 ,quote: "Success is falling nine times and getting up ten.", author: "Jon Bon Jovi"},
+    {id:24 ,quote: "Success is more permanent when you achieve it without destroying your principles.", author: "Walter Cronkite"},
+    {id:25 ,quote: "If you want to be successful, just meditate, man. God will tell you what people need.", author: "Carlos Santana"},
+    {id:26 ,quote: "There is no point at which you can say, 'Well, I'm successful now. I might as well take a nap.", author: "Carrie Fisher"},
+    {id:27 ,quote: "Winning depends on where you put your priorities. It's usually best to put them over the fence.", author: "Jason Giambi"},
+    {id:28 ,quote: "Celebrate what you've accomplished, but raise the bar a little higher each time you succeed.", author: "Mia Hamm"},
+    {id:29 ,quote: "You cannot be really first-rate at your work if your work is all you are.", author: "Anna Quindlen"},
+    {id:30 ,quote: "Inside of a ring or out, ain't nothing wrong with going down. It's staying down that's wrong.", author: "Muhammad Ali"},
     {id:31 ,quote: "The person who knows 'how' will always have a job. The person who knows 'why' will always be his boss.", author: "Diane Ravitch"}
-    {id:32 ,quote: "", author: ""}
-    {id:33 ,quote: "", author: ""}
-    {id:34 ,quote: "", author: ""}
 ];
 
-const quoteEnglish11 = [
+const quoteEnglishDreamBig11 = [
+    {id:1 ,quote: "So many of our dreams at first seem impossible, then they seem improbable, and then, when we summon the will, they soon become inevitable.", author: "Christopher Reeve"},
+    {id:2 ,quote: "A great leader's courage to fulfill his vision comes from passion, not position.", author: "John Maxwell"},
+    {id:3 ,quote: "Always remember, you have within you the strength, the patience, and the passion to reach for the stars to change the world.", author: "Harriet Tubman"},
+    {id:4 ,quote: "Whatever you do, or dream you can, begin it. Boldness has genius and power and magic in it.", author: "Goethe"},
+    {id:5 ,quote: "The future belongs to those who believe in the beauty of their dreams.", author: "Eleanor Roosevelt"},
+    {id:6 ,quote: "Each man should frame life so that at some future hour fact and his dreaming meet.", author: "Victor Hugo"},
+    {id:7 ,quote: "All successful people men and women are big dreamers. They imagine what their future could be, ideal in every respect, and then they work every day toward their distant vision, that goal or purpose.", author: "Brian Tracy"},
+    {id:8 ,quote: "All our dreams can come true, if we have the courage to pursue them.", author: "Walt Disney"},
+    {id:9 ,quote: "For once you have tasted flight you will walk the earth with your eyes turned skywards, for there you have been and there you will long to return.", author: "Leonardo da Vinci"},
+    {id:11 ,quote: "Dreams are the touchstones of our character.", author: "Henry David Thoreau"},
+    {id:12 ,quote: "Dreams come in a size too big so that we may grow into them.", author: "Josie Bisse"},
+    {id:13 ,quote: "Ask yourself, 'How long am I going to work to make my dreams come true?' I suggest you answer, As long as it takes.'", author: "Jim Rohn"},
+    {id:14 ,quote: "Dreams are renewable. No matter what our age or condition, there are still untapped possibilities within us and new beauty waiting to be born.", author: "Dr. Dale E. Turner"},
+    {id:15 ,quote: "Be willing to be uncomfortable. Be comfortable being uncomfortable. It may get tough, but it's a small price to pay for living a dream", author: "Peter McWilliams."},
+    {id:16 ,quote: "Dream and give yourself permission to envision a you that you choose to be.", author: "Joy Page."},
+    {id:17 ,quote: "If you don't build your dream, someone will hire you to help build theirs.", author: "Tony Gaskins"},
+    {id:18 ,quote: "You are never too old to set another goal or to dream a new dream.", author: "C. S. Lewis"},
+    {id:19 ,quote: "If you take responsibility for yourself you will develop a hunger to accomplish your dreams.", author: "Les Brown."},
+    {id:20 ,quote: "Don't be afraid of the space between your dreams and reality. If you can dream it, you can make it so.", author: "Belva Davis."}
+];
+
+const quoteEnglish12 = [
     {id:1 ,quote: "", author: ""},
     {id:2 ,quote: "", author: ""},
     {id:3 ,quote: "", author: ""},
