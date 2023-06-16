@@ -122,8 +122,7 @@ const quoteSpanishBeHappy7 = [
     {id:12 ,quote: "La buena vida es una forma de pensar ", author: "Emilio Valcárcel"},
     {id:13 ,quote: "Puedes ser feliz allí donde estés ", author: "Joel Osteen"},
     {id:14 ,quote: "El término «felicidad» perdería todo su significado si no fuese compensado por la tristeza ", author: "Carl Jung"},
-    {id:15 ,quote: "", author: ""},
-    {id:16 ,quote: "", author: ""}
+
 ];
 
 const quoteSpanishInspiring8 = [
@@ -408,7 +407,30 @@ const quoteEnglishDreamBig11 = [
     {id:20 ,quote: "Don't be afraid of the space between your dreams and reality. If you can dream it, you can make it so.", author: "Belva Davis."}
 ];
 
-const quoteEnglish12 = [
+const quoteEnglishPatience12 = [
+    {id:1 ,quote: "Patience is bitter, but its fruit is sweet.", author: "Jean-Jacques Rousseau"},
+    {id:2 ,quote: "Knowing trees, I understand the meaning of patience. Knowing grass, I can appreciate persistence.", author: "Hal Borland"},
+    {id:3 ,quote: "Have patience with all things but first of all with yourself.", author: "Francis de Sales."},
+    {id:4 ,quote: "Patience is the road to wisdom.", author: "Kao Kalia Yang."},
+    {id:5 ,quote: "Maybe that's why life is so precious. No rewind or fast forward… just patience and faith", author: "Cristina Marrero"},
+    {id:6 ,quote: "Two things define you: your patience when you have nothing and your attitude when you have everything.", author: "George Bernard Shaw"},
+    {id:7 ,quote: "I have just three things to teach: simplicity, patience, compassion. These three are your greatest treasures.", author: "Lao Tzu"},
+    {id:8 ,quote: "With love and patience, nothing is impossible.", author: "Daisaku Ikeda"},
+    {id:9 ,quote: "Patience is when you're supposed to get mad, but you choose to understand.", author: "Anonymous"},
+    {id:10 ,quote: "Be patient and tough; someday this pain will be useful to you.", author: "Ovid"},
+    {id:11 ,quote: "When you have self-knowledge, you're naturally calm and poised. You overcome obstacles with ease. They are part of your plan.", author: "Maxime Lagacé"},
+    {id:12 ,quote: "Rivers know this: there is no hurry. We shall get there some day.", author: "A.A. Milne"},
+    {id:13 ,quote: "When it comes to patience, we don't have to change old habits; we can build better ones", author: "Sue Bender"},
+    {id:14 ,quote: "I am a slow walker, but I never walk back.", author: "Abraham Lincoln"},
+    {id:15 ,quote: "The two most powerful warriors are patience and time.", author: "Leo Tolstoy"},
+    {id:16 ,quote: "I will not be distracted by noise, chatter, or setbacks. Patience, commitment, grace, and purpose will guide me.", author: "Louise Hay"},
+    {id:17 ,quote: "Have patience. All things are difficult before they become easy.", author: "Saadi"},
+    {id:17 ,quote: "The secret of patience is to do something else in the meantime.", author: "Croft M. Pentz"},
+    {id:17 ,quote: "Beware the fury of a patient man.", author: "John Dryden"},
+    {id:17 ,quote: "There are times to stay put, and what you want will come to you, and there are times to go out into the world and find such a thing for yourself.", author: "Lemony Snicket"}
+];
+
+const quoteEnglish13 = [
     {id:1 ,quote: "", author: ""},
     {id:2 ,quote: "", author: ""},
     {id:3 ,quote: "", author: ""},
