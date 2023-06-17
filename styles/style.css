@@ -1,3 +1,4 @@
 html {
-    background-color: dodgerblue;
+    /* background-color: dodgerblue; */
+    background-image: url("images/backgroundSky.jpg");
 }

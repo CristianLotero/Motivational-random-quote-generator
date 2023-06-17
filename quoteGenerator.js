@@ -430,22 +430,23 @@ const quoteEnglishPatience12 = [
     {id:17 ,quote: "There are times to stay put, and what you want will come to you, and there are times to go out into the world and find such a thing for yourself.", author: "Lemony Snicket"}
 ];
 
-const quoteEnglish13 = [
-    {id:1 ,quote: "", author: ""},
-    {id:2 ,quote: "", author: ""},
-    {id:3 ,quote: "", author: ""},
-    {id:4 ,quote: "", author: ""},
-    {id:5 ,quote: "", author: ""},
-    {id:6 ,quote: "", author: ""},
-    {id:7 ,quote: "", author: ""},
-    {id:8 ,quote: "", author: ""},
-    {id:9 ,quote: "", author: ""},
-    {id:10 ,quote: "", author: ""},
-    {id:11 ,quote: "", author: ""},
-    {id:12 ,quote: "", author: ""},
-    {id:13 ,quote: "", author: ""},
-    {id:14 ,quote: "", author: ""},
-    {id:15 ,quote: "", author: ""},
-    {id:16 ,quote: "", author: ""},
-    {id:17 ,quote: "", author: ""}
-];
+// const quoteEnglish13 = [
+//     {id:1 ,quote: "", author: ""},
+//     {id:2 ,quote: "", author: ""},
+//     {id:3 ,quote: "", author: ""},
+//     {id:4 ,quote: "", author: ""},
+//     {id:5 ,quote: "", author: ""},
+//     {id:6 ,quote: "", author: ""},
+//     {id:7 ,quote: "", author: ""},
+//     {id:8 ,quote: "", author: ""},
+//     {id:9 ,quote: "", author: ""},
+//     {id:10 ,quote: "", author: ""},
+//     {id:11 ,quote: "", author: ""},
+//     {id:12 ,quote: "", author: ""},
+//     {id:13 ,quote: "", author: ""},
+//     {id:14 ,quote: "", author: ""},
+//     {id:15 ,quote: "", author: ""},
+//     {id:16 ,quote: "", author: ""},
+//     {id:17 ,quote: "", author: ""}
+// ];
+
