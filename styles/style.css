@@ -1,4 +1,6 @@
 html {
     /* background-color: dodgerblue; */
-    background-image: url("images/backgroundSky.jpg");
+    background-image: url("../images/backgroundSky.jpg");
+    background-repeat:no-repeat ;
+    background-size: cover;
 }
