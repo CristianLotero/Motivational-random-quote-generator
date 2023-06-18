@@ -7,9 +7,10 @@ html {
 
 .startTheMagic {
     position: absolute;
-    place-self: center;
-    bottom: 70%;
+    right: 50%;
+    bottom: 22%;
     height: 70px;
     width: 70px;
     border-radius: 50%;
 }
+
