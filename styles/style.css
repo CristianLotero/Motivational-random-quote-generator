@@ -1,6 +1,15 @@
 html {
-    /* background-color: dodgerblue; */
     background-image: url("../images/backgroundSky.jpg");
     background-repeat:no-repeat ;
     background-size: cover;
+    /* averiguar image-set() */
+}
+
+.startTheMagic {
+    position: absolute;
+    place-self: center;
+    bottom: 70%;
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
 }
