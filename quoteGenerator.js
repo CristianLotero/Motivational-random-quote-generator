@@ -449,3 +449,31 @@ const quoteEnglishPatience12 = [
 //     {id:17 ,quote: "", author: ""}
 // ];
 
+let allSpanishQuotes = [quoteSpanishProfesional1, quoteSpanishShorts2, quoteSpanishPersonalGrowth3,
+    quoteSpanishCelebrated4, quoteSpanishOfLife5, quoteSpanishPositive6, quoteSpanishBeHappy7, 
+    quoteSpanishInspiring8, quoteSpanishNice9, quoteSpanishPositiveThinking10]
+
+let allEnglishQuotes = [quoteEnglishLife1, quoteEnglishTime2, quoteEnglishBeYourself3,
+    quoteEnglishStrength4, quoteEnglishPositive5, quoteEnglishConfidence6, quoteEnglishKindness7, 
+    quoteEnglishSpiritual8, quoteEnglishChange9, quoteEnglishSuccess10, quoteEnglishDreamBig11,
+    quoteEnglishPatience12]
+
+function makeItRandomSpanish() {
+    let spanishRandomArray = Math.floor (Math.random() * allSpanishQuotes.length);  
+    let spanishRandomQuote = Math.floor (Math.random() * allSpanishQuotes[spanishRandomArray.length]);
+    let randomQuote = spanishRandomQuote.quote;
+    return randomQuote;
+} 
+
+let quoteContainer = document.querySelector(".quoteContainer");
+
+let startTheMagic = document.querySelector(".startTheMagic");
+
+startTheMagic.addEventListener("click", displayQuote);
+
+function displayQuote() {
+    // quoteContainer.innetHTML = makeItRandomSpanish();  
+    let aVerQuePasa = makeItRandomSpanish(); 
+    console.log(aVerQuePasa);
+}
+

@@ -2,15 +2,22 @@ html {
     background-image: url("../images/backgroundSky.jpg");
     background-repeat:no-repeat ;
     background-size: cover;
+    height: 100%;
+    width: auto;
     /* averiguar image-set() */
 }
 
 .startTheMagic {
     position: absolute;
     right: 50%;
-    bottom: 22%;
+    bottom: 20%;
     height: 70px;
     width: 70px;
     border-radius: 50%;
+}
+
+.quoteContainer {
+    border: 2px solid red;
+    width: 50px;
 }
 
