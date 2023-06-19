@@ -48,9 +48,7 @@ const quoteSpanishPersonalGrowth3 = [
     {id:11 ,quote: "Solo aquellos que se arriesgan a ir demasiado lejos pueden descubrir lo lejos que pueden llegar", author: "T.S. Eliot"},
     {id:12 ,quote: "Del sufrimiento emergieron las almas más fuertes, los caracteres sólidos tienen cicatrices", author: "Khalil Gibran"},
     {id:13 ,quote: "El universo no conspira contra ti, pero tampoco se desvía para alinear tu camino", author: "Tim Ferriss"},
-    {id:14 ,quote: "Con autodisciplina casi todo es posible", author: "Theodore Roosevelt"},
-    {id:15 ,quote: "", author: ""},
-    {id:16 ,quote: "", author: ""}
+    {id:14 ,quote: "Con autodisciplina casi todo es posible", author: "Theodore Roosevelt"}
 ];
 
 const quoteSpanishCelebrated4 = [
@@ -460,20 +458,25 @@ let allEnglishQuotes = [quoteEnglishLife1, quoteEnglishTime2, quoteEnglishBeYour
 
 function makeItRandomSpanish() {
     let spanishRandomArray = Math.floor (Math.random() * allSpanishQuotes.length);  
-    let spanishRandomQuote = Math.floor (Math.random() * allSpanishQuotes[spanishRandomArray.length]);
-    let randomQuote = spanishRandomQuote.quote;
-    return randomQuote;
+    let spanishRandomQuote = Math.floor (Math.random() * allSpanishQuotes[spanishRandomArray].length);
+    let randomQuote = allSpanishQuotes[spanishRandomArray][spanishRandomQuote].quote;
+    let randomAuthor = allSpanishQuotes[spanishRandomArray][spanishRandomQuote].author;
+    console.log(`spanishRandomArray es : ${spanishRandomArray}`);
+    console.log(`spanishRandomQuote es : ${spanishRandomQuote}`);
+    console.log(randomQuote);
+    console.log(`Autor: ${randomAuthor}`);
+    return [randomQuote,randomAuthor];
 } 
 
 let quoteContainer = document.querySelector(".quoteContainer");
 
 let startTheMagic = document.querySelector(".startTheMagic");
 
-startTheMagic.addEventListener("click", displayQuote);
+startTheMagic.addEventListener("click", makeItRandomSpanish);
 
 function displayQuote() {
     // quoteContainer.innetHTML = makeItRandomSpanish();  
     let aVerQuePasa = makeItRandomSpanish(); 
-    console.log(aVerQuePasa);
+    // console.log(aVerQuePasa);
 }
 
