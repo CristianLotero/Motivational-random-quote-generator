@@ -469,14 +469,18 @@ function makeItRandomSpanish() {
 } 
 
 let quoteContainer = document.querySelector(".quoteContainer");
+let quote = document.querySelector(".quote");
+let author = document.querySelector(".author");
 
 let startTheMagic = document.querySelector(".startTheMagic");
 
-startTheMagic.addEventListener("click", makeItRandomSpanish);
+startTheMagic.addEventListener("click", displayQuote);
 
 function displayQuote() {
-    // quoteContainer.innetHTML = makeItRandomSpanish();  
     let aVerQuePasa = makeItRandomSpanish(); 
-    // console.log(aVerQuePasa);
+    let quoteStrings = aVerQuePasa[0];
+    let authorStrings = aVerQuePasa[1];
+    quote.innerText = `"${quoteStrings}"`;
+    author.innerText = `<<${authorStrings}>>`;
 }
 
