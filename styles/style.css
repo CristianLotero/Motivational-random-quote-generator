@@ -9,8 +9,7 @@ html {
 
 .quoteContainer {
     display: grid;
-    /* align-self: center; */
-    margin: 20% 40% ;
+    margin: 20% 35% ;
     border: 2px solid black;
     width: 25em;
     min-height: 2.5em;
@@ -22,7 +21,7 @@ html {
 
 .quote {
     font-size: 1.5em;
-    color: rgba(216, 0, 108, 0.999);
+    color: rgba(216, 0, 0, 0.999);
     font-weight: 900;
 }
 
@@ -33,13 +32,30 @@ html {
     justify-self: flex-end;
 }
 
-.startTheMagic {
+.startTheMagicSpanish {
     position: absolute;
-    right: 50%;
+    right: 45%;
     bottom: 20%;
-    height: 70px;
-    width: 70px;
+    height: 80px;
+    width: 80px;
     border-radius: 50%;
 }
 
+.startTheMagicEnglish {
+    position: absolute;
+    right: 55%;
+    bottom: 20%;
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+}
 
+img {
+    object-fit: scale-down ;
+    /* object-fit: fill; */
+    max-width: 100%;
+    max-height: auto;
+    align-self: center;
+    margin: 0;
+    overflow: hidden;
+}

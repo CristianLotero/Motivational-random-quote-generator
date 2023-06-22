@@ -29,7 +29,7 @@ const quoteSpanishShorts2 = [
     {id:10 ,quote: "No cuentes los días, haz que los días cuenten", author: "Muhammad Ali"},
     {id:11 ,quote: "El mejor momento del día es ahora ", author: "Pierre Bonnard"},
     {id:12 ,quote: "Si la oportunidad no llama, construye una puerta ", author: "Milton Berle"},
-    {id:13 ,quote: "Deja que cada hombre ejerza el arte que domina ", author: "Aristófanes "},
+    {id:13 ,quote: "Deja que cada hombre ejerza el arte que domina ", author: "Aristófanes"},
     {id:14 ,quote: "El valor de una idea radica en su uso", author: "Thomas Edison"},
 ];
 
@@ -468,16 +468,38 @@ function makeItRandomSpanish() {
     return [randomQuote,randomAuthor];
 } 
 
+function makeItRandomEnglish() {
+    let englishRandomArray = Math.floor (Math.random() * allEnglishQuotes.length);  
+    let englishRandomQuote = Math.floor (Math.random() * allishQuotes[englishRandomArray].length);
+    let randomQuote = allSpanishQuotes[englishRandomArray][englishRandomQuote].quote;
+    let randomAuthor = allSpanishQuotes[englishRandomArray][englishRandomQuote].author;
+    console.log(`englishRandomArray es : ${englishRandomArray}`);
+    console.log(`englishRandomQuote es : ${englishRandomQuote}`);
+    console.log(randomQuote);
+    console.log(`Autor: ${randomAuthor}`);
+    return [randomQuote,randomAuthor];
+} 
+
 let quoteContainer = document.querySelector(".quoteContainer");
 let quote = document.querySelector(".quote");
 let author = document.querySelector(".author");
 
-let startTheMagic = document.querySelector(".startTheMagic");
+let startTheMagicSpanish = document.querySelector(".startTheMagicSpanish");
+let startTheMagicEnglish = document.querySelector(".startTheMagicSpanish");
 
-startTheMagic.addEventListener("click", displayQuote);
+startTheMagicSpanish.addEventListener("click", displayQuoteSpanish);
+startTheMagicSpanish.addEventListener("click", displayQuoteEnglish);
 
-function displayQuote() {
+function displayQuoteSpanish() {
     let aVerQuePasa = makeItRandomSpanish(); 
+    let quoteStrings = aVerQuePasa[0];
+    let authorStrings = aVerQuePasa[1];
+    quote.innerText = `"${quoteStrings}"`;
+    author.innerText = `<<${authorStrings}>>`;
+}
+
+function displayQuoteEnglish() {
+    let aVerQuePasa = makeItRandomEnglish(); 
     let quoteStrings = aVerQuePasa[0];
     let authorStrings = aVerQuePasa[1];
     quote.innerText = `"${quoteStrings}"`;
