@@ -275,7 +275,7 @@ const quoteEnglishConfidence6 = [
     {id:8 ,quote: "Experience tells you what to do; confidence allows you to do it.", author: "Stan Smith, tennis player"},
     {id:9 ,quote: "Skill and confidence are an unconquered army.", author: "George Herbert, poet"},
     {id:10 ,quote: "When you have confidence, you can have a lot of fun. And when you have fun, you can do amazing things.", author: "Joe Namath, football player"},
-    {id:11 ,quote: "“Get more confidence by doing things that excite and frighten you.", author: "Jessica Williams, actress"},
+    {id:11 ,quote: "Get more confidence by doing things that excite and frighten you.", author: "Jessica Williams, actress"},
     {id:12 ,quote: "Nurture your mind with great thoughts, for you will never go any higher than you think.", author: "Benjamin Disraeli, former UK Prime Minister"},
     {id:13 ,quote: "Once you become self-conscious, there is no end to it; once you start to doubt, there is no room for anything else.", author: "Mignon McLaughlin"},
     {id:14 ,quote: "Health is the greatest possession. Contentment is the greatest treasure. Confidence is the greatest friend.", author: "Laozi."}
@@ -470,9 +470,9 @@ function makeItRandomSpanish() {
 
 function makeItRandomEnglish() {
     let englishRandomArray = Math.floor (Math.random() * allEnglishQuotes.length);  
-    let englishRandomQuote = Math.floor (Math.random() * allishQuotes[englishRandomArray].length);
-    let randomQuote = allSpanishQuotes[englishRandomArray][englishRandomQuote].quote;
-    let randomAuthor = allSpanishQuotes[englishRandomArray][englishRandomQuote].author;
+    let englishRandomQuote = Math.floor (Math.random() * allEnglishQuotes[englishRandomArray].length);
+    let randomQuote = allEnglishQuotes[englishRandomArray][englishRandomQuote].quote;
+    let randomAuthor = allEnglishQuotes[englishRandomArray][englishRandomQuote].author;
     console.log(`englishRandomArray es : ${englishRandomArray}`);
     console.log(`englishRandomQuote es : ${englishRandomQuote}`);
     console.log(randomQuote);
@@ -485,10 +485,10 @@ let quote = document.querySelector(".quote");
 let author = document.querySelector(".author");
 
 let startTheMagicSpanish = document.querySelector(".startTheMagicSpanish");
-let startTheMagicEnglish = document.querySelector(".startTheMagicSpanish");
+let startTheMagicEnglish = document.querySelector(".startTheMagicEnglish");
 
 startTheMagicSpanish.addEventListener("click", displayQuoteSpanish);
-startTheMagicSpanish.addEventListener("click", displayQuoteEnglish);
+startTheMagicEnglish.addEventListener("click", displayQuoteEnglish);
 
 function displayQuoteSpanish() {
     let aVerQuePasa = makeItRandomSpanish(); 
