@@ -456,6 +456,13 @@ let allEnglishQuotes = [quoteEnglishLife1, quoteEnglishTime2, quoteEnglishBeYour
     quoteEnglishSpiritual8, quoteEnglishChange9, quoteEnglishSuccess10, quoteEnglishDreamBig11,
     quoteEnglishPatience12]
 
+let quoteContainer = document.querySelector(".quoteContainer");
+let quote = document.querySelector(".quote");
+let author = document.querySelector(".author");
+
+let startTheMagicSpanish = document.querySelector(".startTheMagicSpanish");
+let startTheMagicEnglish = document.querySelector(".startTheMagicEnglish");
+
 function makeItRandomSpanish() {
     let spanishRandomArray = Math.floor (Math.random() * allSpanishQuotes.length);  
     let spanishRandomQuote = Math.floor (Math.random() * allSpanishQuotes[spanishRandomArray].length);
@@ -466,7 +473,7 @@ function makeItRandomSpanish() {
     console.log(randomQuote);
     console.log(`Autor: ${randomAuthor}`);
     return [randomQuote,randomAuthor];
-} 
+}
 
 function makeItRandomEnglish() {
     let englishRandomArray = Math.floor (Math.random() * allEnglishQuotes.length);  
@@ -478,14 +485,8 @@ function makeItRandomEnglish() {
     console.log(randomQuote);
     console.log(`Autor: ${randomAuthor}`);
     return [randomQuote,randomAuthor];
-} 
+}
 
-let quoteContainer = document.querySelector(".quoteContainer");
-let quote = document.querySelector(".quote");
-let author = document.querySelector(".author");
-
-let startTheMagicSpanish = document.querySelector(".startTheMagicSpanish");
-let startTheMagicEnglish = document.querySelector(".startTheMagicEnglish");
 
 startTheMagicSpanish.addEventListener("click", displayQuoteSpanish);
 startTheMagicEnglish.addEventListener("click", displayQuoteEnglish);
