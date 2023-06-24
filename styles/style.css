@@ -58,4 +58,9 @@ img {
     align-self: center;
     margin: 0;
     overflow: hidden;
+
+}
+
+.startTheMagicEnglish img, .startTheMagicSpanish img {
+    border-radius: 50%;
 }
