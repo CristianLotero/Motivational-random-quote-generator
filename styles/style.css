@@ -1,3 +1,8 @@
+:root {
+    --color1 : rgb(126, 3, 3);
+    --color2 : rgb(41, 82, 196);
+}
+
 html {
     background-image: url("../images/backgroundSky.jpg");
     background-repeat:no-repeat ;

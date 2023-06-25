@@ -507,3 +507,8 @@ function displayQuoteEnglish() {
     author.innerText = `<<${authorStrings}>>`;
 }
 
+function lettersMagic {
+    let bringQuote = makeItRandomSpanish();
+    let quote = bringQuote[0];
+    
+}
