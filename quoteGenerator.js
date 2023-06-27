@@ -488,7 +488,7 @@ function makeItRandomEnglish() {
 }
 
 
-startTheMagicSpanish.addEventListener("click", displayQuoteSpanish);
+startTheMagicSpanish.addEventListener("click", lettersMagic);
 startTheMagicEnglish.addEventListener("click", displayQuoteEnglish);
 
 function displayQuoteSpanish() {
@@ -507,9 +507,22 @@ function displayQuoteEnglish() {
     author.innerText = `<<${authorStrings}>>`;
 }
 
+// function lettersMagic() {
+//     let bringQuote = makeItRandomSpanish();
+//     let randomQuote = bringQuote[0];
+//     let quoteStringsArray = [...randomQuote];
+//     quote.innerText = `${bringQuote[0]}`
+//     author.innerText = `<<${bringQuote[1]}>>`;
+//     console.log(quoteStringsArray);
+// }
+
 function lettersMagic() {
     let bringQuote = makeItRandomSpanish();
-    let quote = bringQuote[1];
-    let quoteArray = [...quote];
-    console.log(quoteArray);
+    let randomQuote = bringQuote[0];
+    let quoteStringsArray = randomQuote.split('');
+    let quoteWordsArray = randomQuote.split('.');
+    quote.innerText = `${bringQuote[0]}`
+    author.innerText = `<<${bringQuote[1]}>>`;
+    console.log(quoteStringsArray);
+    console.log(quoteWordsArray);
 }
