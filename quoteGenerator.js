@@ -507,8 +507,9 @@ function displayQuoteEnglish() {
     author.innerText = `<<${authorStrings}>>`;
 }
 
-function lettersMagic {
+function lettersMagic() {
     let bringQuote = makeItRandomSpanish();
-    let quote = bringQuote[0];
-    
+    let quote = bringQuote[1];
+    let quoteArray = [...quote];
+    console.log(quoteArray);
 }
