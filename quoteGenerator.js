@@ -506,7 +506,7 @@ function displayQuoteEnglish() {
     quote.innerText = `"${quoteStrings}"`;
     author.innerText = `<<${authorStrings}>>`;
 }
-
+// Con Spread syntax
 // function lettersMagic() {
 //     let bringQuote = makeItRandomSpanish();
 //     let randomQuote = bringQuote[0];
@@ -516,13 +516,28 @@ function displayQuoteEnglish() {
 //     console.log(quoteStringsArray);
 // }
 
+
+// Con .split()
+// function lettersMagic() {
+//     let bringQuote = makeItRandomSpanish();
+//     let randomQuote = bringQuote[0];
+//     let quoteStringsArray = randomQuote.split('');
+//     let quoteWordsArray = randomQuote.split(' ');
+//     quote.innerText = `${bringQuote[0]}`
+//     author.innerText = `<<${bringQuote[1]}>>`;
+//     console.log(quoteStringsArray);
+//     console.log(quoteWordsArray);
+// }
+
+
+// Con Array.from()
 function lettersMagic() {
     let bringQuote = makeItRandomSpanish();
     let randomQuote = bringQuote[0];
-    let quoteStringsArray = randomQuote.split('');
-    let quoteWordsArray = randomQuote.split('.');
+    let quoteStringsArray = Array.from(randomQuote);
+    // let quoteWordsArray = randomQuote.split(' ');
     quote.innerText = `${bringQuote[0]}`
     author.innerText = `<<${bringQuote[1]}>>`;
     console.log(quoteStringsArray);
-    console.log(quoteWordsArray);
+    // console.log(quoteWordsArray);
 }
