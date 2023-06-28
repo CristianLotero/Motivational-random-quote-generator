@@ -488,7 +488,7 @@ function makeItRandomEnglish() {
 }
 
 
-startTheMagicSpanish.addEventListener("click", displayQuoteSpanish);
+startTheMagicSpanish.addEventListener("click", lettersMagic);
 startTheMagicEnglish.addEventListener("click", displayQuoteEnglish);
 
 function displayQuoteSpanish() {
@@ -506,10 +506,38 @@ function displayQuoteEnglish() {
     quote.innerText = `"${quoteStrings}"`;
     author.innerText = `<<${authorStrings}>>`;
 }
+// Con Spread syntax
+// function lettersMagic() {
+//     let bringQuote = makeItRandomSpanish();
+//     let randomQuote = bringQuote[0];
+//     let quoteStringsArray = [...randomQuote];
+//     quote.innerText = `${bringQuote[0]}`
+//     author.innerText = `<<${bringQuote[1]}>>`;
+//     console.log(quoteStringsArray);
+// }
 
+
+// Con .split()
+// function lettersMagic() {
+//     let bringQuote = makeItRandomSpanish();
+//     let randomQuote = bringQuote[0];
+//     let quoteStringsArray = randomQuote.split('');
+//     let quoteWordsArray = randomQuote.split(' ');
+//     quote.innerText = `${bringQuote[0]}`
+//     author.innerText = `<<${bringQuote[1]}>>`;
+//     console.log(quoteStringsArray);
+//     console.log(quoteWordsArray);
+// }
+
+
+// Con Array.from()
 function lettersMagic() {
     let bringQuote = makeItRandomSpanish();
-    let quote = bringQuote[1];
-    let quoteArray = [...quote];
-    console.log(quoteArray);
+    let randomQuote = bringQuote[0];
+    let quoteStringsArray = Array.from(randomQuote);
+    // let quoteWordsArray = randomQuote.split(' ');
+    quote.innerText = `${bringQuote[0]}`
+    author.innerText = `<<${bringQuote[1]}>>`;
+    console.log(quoteStringsArray);
+    // console.log(quoteWordsArray);
 }
