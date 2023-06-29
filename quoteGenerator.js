@@ -48,7 +48,8 @@ const quoteSpanishPersonalGrowth3 = [
     {id:11 ,quote: "Solo aquellos que se arriesgan a ir demasiado lejos pueden descubrir lo lejos que pueden llegar", author: "T.S. Eliot"},
     {id:12 ,quote: "Del sufrimiento emergieron las almas más fuertes, los caracteres sólidos tienen cicatrices", author: "Khalil Gibran"},
     {id:13 ,quote: "El universo no conspira contra ti, pero tampoco se desvía para alinear tu camino", author: "Tim Ferriss"},
-    {id:14 ,quote: "Con autodisciplina casi todo es posible", author: "Theodore Roosevelt"}
+    {id:14 ,quote: "Con autodisciplina casi todo es posible", author: "Theodore Roosevelt"},
+    {id:15 ,quote: "Si no expresas tus ideas originales, si no escuchas a tu propio ser, te habrás traicionado a ti mismo.", author: "Rollo may"}
 ];
 
 const quoteSpanishCelebrated4 = [
@@ -266,7 +267,7 @@ const quoteEnglishPositive5 = [
 const quoteEnglishConfidence6 = [
     {id:0 ,quote: "Until you value yourself, you won't value your time. Until you value your time, you will not do anything with it. ", author: "M. Scott Peck, psychiatrist"},
     {id:1 ,quote: "Because one is content with oneself, one doesn't need others approval", author: "Laozi, ancient philosopher"},
-    {id:2 ,quote: "“When you have a lot of confidence and you feel like nobody can beat you, it's game over for everyone else.", author: "Jason Day, pro golfer"},
+    {id:2 ,quote: "When you have a lot of confidence and you feel like nobody can beat you, it's game over for everyone else.", author: "Jason Day, pro golfer"},
     {id:3 ,quote: "Self-confidence can be learned, practiced, and mastered—just like any other skill. Once you master it, everything in your life will change for the better.", author: "Barrie Davenport, self-improvement guru"},
     {id:4 ,quote: "It took me a long time not to judge myself through someone else's eyes.", author: "Sally Field, actress and director"},
     {id:5 ,quote: "Confidence doesn't come out of nowhere. It's a result of…hours and days and weeks and years of constant work and dedication.", author: "Roger Staubach, pro football player"},
@@ -488,8 +489,8 @@ function makeItRandomEnglish() {
 }
 
 
-startTheMagicSpanish.addEventListener("click", lettersMagic);
-startTheMagicEnglish.addEventListener("click", displayQuoteEnglish);
+startTheMagicSpanish.addEventListener("click", lettersMagicSpanish);
+startTheMagicEnglish.addEventListener("click", lettersMagicEnglish);
 
 function displayQuoteSpanish() {
     let aVerQuePasa = makeItRandomSpanish(); 
@@ -531,7 +532,7 @@ function displayQuoteEnglish() {
 
 
 // Con Array.from()
-function lettersMagic() {
+function lettersMagicSpanish() {
     let bringQuote = makeItRandomSpanish();
     let randomQuote = bringQuote[0];
     let quoteStringsArray = Array.from(randomQuote);
@@ -541,3 +542,26 @@ function lettersMagic() {
     console.log(quoteStringsArray);
     // console.log(quoteWordsArray);
 }
+
+// Con Array.from()
+function lettersMagicEnglish() {
+    let bringQuote = makeItRandomEnglish();
+    let randomQuote = bringQuote[0];
+    let quoteStringsArray = Array.from(randomQuote);
+    // let quoteWordsArray = randomQuote.split(' ');
+    quote.innerText = `${bringQuote[0]}`
+    author.innerText = `<<${bringQuote[1]}>>`;
+    console.log(quoteStringsArray);
+    // console.log(quoteWordsArray);
+}
+
+function multiplicador(secuencia){
+    let multiplicador = Array.from(secuencia, x => (x * x));
+    return multiplicador;
+}
+
+console.log(`El resultado es: ${multiplicador([3,5,7])}`);
+
+
+
+
