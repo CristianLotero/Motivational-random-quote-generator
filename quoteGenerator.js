@@ -380,7 +380,8 @@ const quoteEnglishSuccess10 = [
     {id:27 ,quote: "Celebrate what you've accomplished, but raise the bar a little higher each time you succeed.", author: "Mia Hamm"},
     {id:28 ,quote: "You cannot be really first-rate at your work if your work is all you are.", author: "Anna Quindlen"},
     {id:29 ,quote: "Inside of a ring or out, ain't nothing wrong with going down. It's staying down that's wrong.", author: "Muhammad Ali"},
-    {id:30 ,quote: "The person who knows 'how' will always have a job. The person who knows 'why' will always be his boss.", author: "Diane Ravitch"}
+    {id:30 ,quote: "The person who knows 'how' will always have a job. The person who knows 'why' will always be his boss.", author: "Diane Ravitch"},
+    {id:31 ,quote: "If you have to beg, then beg. If you have to barter, then barter. If you have to be creative, then be creative. Just don't be a victim of your circumstance.", author: "Gary Keller"},
 ];
 
 const quoteEnglishDreamBig11 = [
@@ -428,34 +429,53 @@ const quoteEnglishPatience12 = [
     {id:19 ,quote: "There are times to stay put, and what you want will come to you, and there are times to go out into the world and find such a thing for yourself.", author: "Lemony Snicket"}
 ];
 
-// const quoteEnglish13 = [
-//     {id:1 ,quote: "", author: ""},
-//     {id:2 ,quote: "", author: ""},
-//     {id:3 ,quote: "", author: ""},
-//     {id:4 ,quote: "", author: ""},
-//     {id:5 ,quote: "", author: ""},
-//     {id:6 ,quote: "", author: ""},
-//     {id:7 ,quote: "", author: ""},
-//     {id:8 ,quote: "", author: ""},
-//     {id:9 ,quote: "", author: ""},
-//     {id:10 ,quote: "", author: ""},
-//     {id:11 ,quote: "", author: ""},
-//     {id:12 ,quote: "", author: ""},
-//     {id:13 ,quote: "", author: ""},
-//     {id:14 ,quote: "", author: ""},
-//     {id:15 ,quote: "", author: ""},
-//     {id:16 ,quote: "", author: ""},
-//     {id:17 ,quote: "", author: ""}
-// ];
+const quoteEnglishWilliamJames13 = [
+    {id:1 ,quote: "A great many people think they are thinking when they are merely rearranging their prejudices.", author: "William James"},
+    {id:2 ,quote: "Common sense and a sense of humor are the same thing, moving at different speeds. A sense of humor is just common sense, dancing.", author: "William James"},
+    {id:3 ,quote: "Compared with what we ought to be, we are half awake.", author: "William James"},
+    {id:4 ,quote: "The art of being wise is the art of knowing what to overlook.", author: "William James"},
+    {id:5 ,quote: "Truth happens to an idea.", author: "William James"},
+    {id:6 ,quote: "Be willing to have it so. Acceptance of what has happened is the first step to overcoming the consequences of any misfortune.", author: "William James"},
+    {id:7 ,quote: "It is our attitude at the beginning of a difficult task which, more than anything else, will affect its successful outcome.", author: "William James"},
+    {id:8 ,quote: "There is but one cause of human failure. And that is man's lack of faith in his true Self.", author: "William James"},
+    {id:9 ,quote: "He who refuses to embrace a unique opportunity loses the prize as surely as if he had tried and failed.", author: "William James"},
+    {id:11 ,quote: "All natural goods perish. Riches take wings; fame is a breath; love is a cheat; youth and health and pleasure vanish.", author: "William James"},
+    {id:10 ,quote: "Everybody should do at least two things each day that he hates to do, just for practice.", author: "William James"},
+    {id:12 ,quote: "How to gain, how to keep, how to recover happiness, is in fact for most men at all times the secret motive of all they do, and of all they are willing to endure.", author: "William James"},
+    {id:13 ,quote: "The best argument I know for an immortal life is the existence of a man who deserves one.", author: "William James"},
+    {id:14 ,quote: "We are all ready to be savage in some cause. The difference between a good man and a bad one is the choice of the cause.", author: "William James"}
+];
+
+const quoteEnglish14 = [
+    {id:1 ,quote: "", author: ""},
+    {id:2 ,quote: "", author: ""},
+    {id:3 ,quote: "", author: ""},
+    {id:4 ,quote: "", author: ""},
+    {id:5 ,quote: "", author: ""},
+    {id:6 ,quote: "", author: ""},
+    {id:7 ,quote: "", author: ""},
+    {id:8 ,quote: "", author: ""},
+    {id:9 ,quote: "", author: ""},
+    {id:10 ,quote: "", author: ""},
+    {id:11 ,quote: "", author: ""},
+    {id:12 ,quote: "", author: ""},
+    {id:13 ,quote: "", author: ""},
+    {id:14 ,quote: "", author: ""},
+    {id:15 ,quote: "", author: ""},
+    {id:16 ,quote: "", author: ""},
+    {id:17 ,quote: "", author: ""}
+];
 
 let allSpanishQuotes = [quoteSpanishProfesional1, quoteSpanishShorts2, quoteSpanishPersonalGrowth3,
     quoteSpanishCelebrated4, quoteSpanishOfLife5, quoteSpanishPositive6, quoteSpanishBeHappy7, 
-    quoteSpanishInspiring8, quoteSpanishNice9, quoteSpanishPositiveThinking10]
+    quoteSpanishInspiring8, quoteSpanishNice9, quoteSpanishPositiveThinking10];
 
 let allEnglishQuotes = [quoteEnglishLife1, quoteEnglishTime2, quoteEnglishBeYourself3,
     quoteEnglishStrength4, quoteEnglishPositive5, quoteEnglishConfidence6, quoteEnglishKindness7, 
     quoteEnglishSpiritual8, quoteEnglishChange9, quoteEnglishSuccess10, quoteEnglishDreamBig11,
-    quoteEnglishPatience12]
+    quoteEnglishPatience12];
+
+let fontSizeValuesArray = ["1em","1.5em","2em","2.5em","3em","3.5em","4em","4.5em"]
 
 let quoteContainer = document.querySelector(".quoteContainer");
 let quote = document.querySelector(".quote");
@@ -463,15 +483,19 @@ let author = document.querySelector(".author");
 
 let startTheMagicSpanish = document.querySelector(".startTheMagicSpanish");
 let startTheMagicEnglish = document.querySelector(".startTheMagicEnglish");
+let fontSizeBigger = document.querySelector(".bigger");
+let fontSizeSmaller = document.querySelector(".smaller");
+
 
 function makeItRandomSpanish() {
     let spanishRandomArray = Math.floor (Math.random() * allSpanishQuotes.length);  
     let spanishRandomQuote = Math.floor (Math.random() * allSpanishQuotes[spanishRandomArray].length);
     let randomQuote = allSpanishQuotes[spanishRandomArray][spanishRandomQuote].quote;
     let randomAuthor = allSpanishQuotes[spanishRandomArray][spanishRandomQuote].author;
-    console.log(`spanishRandomArray es : ${spanishRandomArray}`);
-    console.log(`spanishRandomQuote es : ${spanishRandomQuote}`);
+    console.log(`el array: ${spanishRandomArray}`);
+    console.log(`el ID de quote : ${spanishRandomQuote}`);
     console.log(randomQuote);
+    console.log(`El quoteArray : [${[...randomQuote]}]`)
     console.log(`Autor: ${randomAuthor}`);
     return [randomQuote,randomAuthor];
 }
@@ -481,16 +505,21 @@ function makeItRandomEnglish() {
     let englishRandomQuote = Math.floor (Math.random() * allEnglishQuotes[englishRandomArray].length);
     let randomQuote = allEnglishQuotes[englishRandomArray][englishRandomQuote].quote;
     let randomAuthor = allEnglishQuotes[englishRandomArray][englishRandomQuote].author;
-    console.log(`englishRandomArray es : ${englishRandomArray}`);
-    console.log(`englishRandomQuote es : ${englishRandomQuote}`);
+    console.log(`el array: ${englishRandomArray}`);
+    console.log(`el ID de quote : ${englishRandomQuote}`);
     console.log(randomQuote);
+    console.log(`El quoteArray : [${[...randomQuote]}]`)
     console.log(`Autor: ${randomAuthor}`);
     return [randomQuote,randomAuthor];
 }
 
 
-startTheMagicSpanish.addEventListener("click", lettersMagicSpanish);
-startTheMagicEnglish.addEventListener("click", lettersMagicEnglish);
+startTheMagicSpanish.addEventListener("click", displayQuoteSpanish);
+startTheMagicEnglish.addEventListener("click", displayQuoteEnglish);
+fontSizeBigger.addEventListener("click", fontBigger);
+fontSizeSmaller.addEventListener("click", fontSmaller);
+
+
 
 function displayQuoteSpanish() {
     let aVerQuePasa = makeItRandomSpanish(); 
@@ -507,60 +536,29 @@ function displayQuoteEnglish() {
     quote.innerText = `"${quoteStrings}"`;
     author.innerText = `<<${authorStrings}>>`;
 }
-// Con Spread syntax
-// function lettersMagic() {
-//     let bringQuote = makeItRandomSpanish();
-//     let randomQuote = bringQuote[0];
-//     let quoteStringsArray = [...randomQuote];
-//     quote.innerText = `${bringQuote[0]}`
-//     author.innerText = `<<${bringQuote[1]}>>`;
-//     console.log(quoteStringsArray);
-// }
 
-
-// Con .split()
-// function lettersMagic() {
-//     let bringQuote = makeItRandomSpanish();
-//     let randomQuote = bringQuote[0];
-//     let quoteStringsArray = randomQuote.split('');
-//     let quoteWordsArray = randomQuote.split(' ');
-//     quote.innerText = `${bringQuote[0]}`
-//     author.innerText = `<<${bringQuote[1]}>>`;
-//     console.log(quoteStringsArray);
-//     console.log(quoteWordsArray);
-// }
-
-
-// Con Array.from()
-function lettersMagicSpanish() {
-    let bringQuote = makeItRandomSpanish();
-    let randomQuote = bringQuote[0];
-    let quoteStringsArray = Array.from(randomQuote);
-    // let quoteWordsArray = randomQuote.split(' ');
-    quote.innerText = `${bringQuote[0]}`
-    author.innerText = `<<${bringQuote[1]}>>`;
-    console.log(quoteStringsArray);
-    // console.log(quoteWordsArray);
+function fontBigger() {
+    // let quoteStyleValues = window.getComputedStyle(quote);
+    // let quoteFontSize = quoteStyleValues.getPropertyValue("font-size");
+    // (() => {
+    //     let fontSizeArray = [...quoteFontSize];
+    //     let fontSizeValue = fontSizeArray.filter((isANumber) => isANumber >= 0 );
+    // })();
+    let fontSizeCssVar = getComputedStyle(document.documentElement).getPropertyValue('--font-size-multi');
+    let fontSizeValuesArrayIndex = fontSizeValuesArray.indexOf(fontSizeCssVar);
+    document.documentElement.style.setProperty('--font-size-multi', fontSizeValuesArray[fontSizeValuesArrayIndex + 1]);
+    console.log(`Css var: ${fontSizeCssVar}`);
+    console.log(`index of :${fontSizeValuesArrayIndex}`);
 }
 
-// Con Array.from()
-function lettersMagicEnglish() {
-    let bringQuote = makeItRandomEnglish();
-    let randomQuote = bringQuote[0];
-    let quoteStringsArray = Array.from(randomQuote);
-    // let quoteWordsArray = randomQuote.split(' ');
-    quote.innerText = `${bringQuote[0]}`
-    author.innerText = `<<${bringQuote[1]}>>`;
-    console.log(quoteStringsArray);
-    // console.log(quoteWordsArray);
+function fontSmaller() {
+    let fontSizeCssVar = getComputedStyle(document.documentElement).getPropertyValue('--font-size-multi');
+    let fontSizeValuesArrayIndex = fontSizeValuesArray.indexOf(fontSizeCssVar);
+    document.documentElement.style.setProperty('--font-size-multi', fontSizeValuesArray[fontSizeValuesArrayIndex - 1]);
+    console.log(`Css var: ${fontSizeCssVar}`);
+    console.log(`index of :${fontSizeValuesArrayIndex}`);
 }
 
-function multiplicador(secuencia){
-    let multiplicador = Array.from(secuencia, x => (x * x));
-    return multiplicador;
-}
-
-console.log(`El resultado es: ${multiplicador([3,5,7])}`);
 
 
 
