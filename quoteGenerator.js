@@ -8,15 +8,15 @@ const quoteSpanishProfesional1 = [
     {id: 6,quote:"Cuando algo es lo suficientemente importante, lo haces incluso si las probabilidades de que salga bien no te acompañan ", author: "Elon Musk"},
     {id: 7,quote:"Escoge un trabajo que te guste, y nunca tendrás que trabajar ni un solo día de tu vida", author: "Confucio"},
     {id: 8,quote:"Un sueño no se hace realidad por arte de magia, necesita sudor, determinación y trabajo duro ", author: "Colin Powell"},
-    {id: 9,quote:"Cuéntamelo y me olvidaré. enséñamelo y lo recordaré. involúcrame y lo aprenderé ", author: "Benjamin Franklin "},
+    {id: 9,quote:"Cuéntamelo y me olvidaré. enséñamelo y lo recordaré. involúcrame y lo aprenderé ", author: "Benjamin Franklin"},
     {id: 10,quote:"La lógica te llevará de la a a la z. la imaginación te llevará a cualquier lugar", author: "Albert Einstein"},
     {id: 11,quote:"A veces la adversidad es lo que necesitas encarar para ser exitoso", author: "Zig Ziglar "},
-    {id: 12,quote:"Para tener éxito tu deseo de alcanzarlo debe ser mayor que tu miedo al fracaso ", author: "Bill Cosby"},
+    {id: 12,quote:"Para tener éxito tu deseo de alcanzarlo debe ser mayor que tu miedo al fracaso", author: "Bill Cosby"},
     {id: 13,quote:"Ejecuta tus conocimientos con la maestría del que sigue aprendiendo", author: "Jonathan García-Allen"}
 ];
 
 const quoteSpanishShorts2 = [
-    {id:0 ,quote: "Cuando pierdas, no pierdas la lección", author: "Dalai Lama "},
+    {id:0 ,quote: "Cuando pierdas, no pierdas la lección", author: "Dalai Lama"},
     {id:1 ,quote: "No busques los errores, busca un remedio", author: "Henry Ford"},
     {id:2 ,quote: "La vida es una aventura, atrévete ", author: "Teresa de Calcuta"},
     {id:3 ,quote: "Tu actitud, no tu aptitud, determinará tu altitud ", author: "Zig Ziglar"},
@@ -25,19 +25,19 @@ const quoteSpanishShorts2 = [
     {id:6 ,quote: "Siempre parece imposible... hasta que se hace ", author: "Nelson Mandela"},
     {id:7 ,quote: "Si no pierdes, no puedes disfrutar de las victorias ", author: "Rafael Nadal"},
     {id:8 ,quote: "No dejes que el miedo se interponga en tu camino", author: "Babe Ruth"},
-    {id:9 ,quote: "Haz de cada día tu obra maestra", author: "John Wooden "},
+    {id:9 ,quote: "Haz de cada día tu obra maestra", author: "John Wooden"},
     {id:10 ,quote: "No cuentes los días, haz que los días cuenten", author: "Muhammad Ali"},
-    {id:11 ,quote: "El mejor momento del día es ahora ", author: "Pierre Bonnard"},
-    {id:12 ,quote: "Si la oportunidad no llama, construye una puerta ", author: "Milton Berle"},
-    {id:13 ,quote: "Deja que cada hombre ejerza el arte que domina ", author: "Aristófanes"},
+    {id:11 ,quote: "El mejor momento del día es ahora", author: "Pierre Bonnard"},
+    {id:12 ,quote: "Si la oportunidad no llama, construye una puerta", author: "Milton Berle"},
+    {id:13 ,quote: "Deja que cada hombre ejerza el arte que domina", author: "Aristófanes"},
     {id:14 ,quote: "El valor de una idea radica en su uso", author: "Thomas Edison"},
 ];
 
 const quoteSpanishPersonalGrowth3 = [
     {id:0 ,quote: "Piensa, sueña, cree y atrévete", author: "Walt Disney"},
-    {id:1 ,quote: "Los obstáculos son esas cosas atemorizantes que ves cuando apartas los ojos de tu meta ", author: "Henry Ford"},
+    {id:1 ,quote: "Los obstáculos son esas cosas atemorizantes que ves cuando apartas los ojos de tu meta", author: "Henry Ford"},
     {id:2 ,quote: "Asegúrate de que colocas tus pies en el lugar correcto, y luego mantente firme", author: "Abraham Lincoln"},
-    {id:3 ,quote: "Las ideas pueden cambiar la vida. A veces a lo único que tienes que abrir la puerta es a una buena idea ", author: "Jim Rohn"},
+    {id:3 ,quote: "Las ideas pueden cambiar la vida. A veces a lo único que tienes que abrir la puerta es a una buena idea", author: "Jim Rohn"},
     {id:4 ,quote: "La mejor manera para empezar es callándote y empezar a hacer ", author: "Walt Disney"},
     {id:5 ,quote: "Nadie se desembaraza de un hábito o de un vicio tirándolo de una vez por la ventana; hay que sacarlo por la escalera, peldaño a peldaño", author: "Mark Twain"},
     {id:6 ,quote: "Si te caes siete veces, levántate ocho ", author: "Proverbio chino"},
@@ -446,25 +446,25 @@ const quoteEnglishWilliamJames13 = [
     {id:14 ,quote: "We are all ready to be savage in some cause. The difference between a good man and a bad one is the choice of the cause.", author: "William James"}
 ];
 
-const quoteEnglish14 = [
-    {id:1 ,quote: "", author: ""},
-    {id:2 ,quote: "", author: ""},
-    {id:3 ,quote: "", author: ""},
-    {id:4 ,quote: "", author: ""},
-    {id:5 ,quote: "", author: ""},
-    {id:6 ,quote: "", author: ""},
-    {id:7 ,quote: "", author: ""},
-    {id:8 ,quote: "", author: ""},
-    {id:9 ,quote: "", author: ""},
-    {id:10 ,quote: "", author: ""},
-    {id:11 ,quote: "", author: ""},
-    {id:12 ,quote: "", author: ""},
-    {id:13 ,quote: "", author: ""},
-    {id:14 ,quote: "", author: ""},
-    {id:15 ,quote: "", author: ""},
-    {id:16 ,quote: "", author: ""},
-    {id:17 ,quote: "", author: ""}
-];
+// const quoteEnglish14 = [
+//     {id:1 ,quote: "", author: ""},
+//     {id:2 ,quote: "", author: ""},
+//     {id:3 ,quote: "", author: ""},
+//     {id:4 ,quote: "", author: ""},
+//     {id:5 ,quote: "", author: ""},
+//     {id:6 ,quote: "", author: ""},
+//     {id:7 ,quote: "", author: ""},
+//     {id:8 ,quote: "", author: ""},
+//     {id:9 ,quote: "", author: ""},
+//     {id:10 ,quote: "", author: ""},
+//     {id:11 ,quote: "", author: ""},
+//     {id:12 ,quote: "", author: ""},
+//     {id:13 ,quote: "", author: ""},
+//     {id:14 ,quote: "", author: ""},
+//     {id:15 ,quote: "", author: ""},
+//     {id:16 ,quote: "", author: ""},
+//     {id:17 ,quote: "", author: ""}
+// ];
 
 let allSpanishQuotes = [quoteSpanishProfesional1, quoteSpanishShorts2, quoteSpanishPersonalGrowth3,
     quoteSpanishCelebrated4, quoteSpanishOfLife5, quoteSpanishPositive6, quoteSpanishBeHappy7, 
@@ -477,9 +477,11 @@ let allEnglishQuotes = [quoteEnglishLife1, quoteEnglishTime2, quoteEnglishBeYour
 
 let fontSizeValuesArray = ["1em","1.5em","2em","2.5em","3em","3.5em","4em","4.5em"]
 
-let quoteContainer = document.querySelector(".quoteContainer");
+// let quoteContainer = document.querySelector(".quoteContainer");
 let quote = document.querySelector(".quote");
 let author = document.querySelector(".author");
+let nIndex = 0;
+let temporary = [];
 
 let startTheMagicSpanish = document.querySelector(".startTheMagicSpanish");
 let startTheMagicEnglish = document.querySelector(".startTheMagicEnglish");
@@ -494,6 +496,7 @@ function makeItRandomSpanish() {
     let randomAuthor = allSpanishQuotes[spanishRandomArray][spanishRandomQuote].author;
     console.log(`el array: ${spanishRandomArray}`);
     console.log(`el ID de quote : ${spanishRandomQuote}`);
+    console.log(`el index length : ${randomQuote.length}`);
     console.log(randomQuote);
     console.log(`El quoteArray : [${[...randomQuote]}]`)
     console.log(`Autor: ${randomAuthor}`);
@@ -520,19 +523,43 @@ fontSizeBigger.addEventListener("click", fontBigger);
 fontSizeSmaller.addEventListener("click", fontSmaller);
 
 
+function displayDeAPoco(array, theAuthor) {
+    if (author) {
+        author.innerText = "";
+    }
+    let quoteArray = array;
+    let myAuthor = theAuthor;
+    temporary.push(quoteArray[nIndex]);
+    let temporaryString = temporary.join("");
+    quote.innerText = `"${temporaryString}"`;
+    nIndex++
+    let mySetTimeout = setTimeout(displayDeAPoco,50,quoteArray,myAuthor)
+    if (nIndex === quoteArray.length) {
+        clearTimeout(mySetTimeout);
+        author.innerText = `<<${myAuthor}>>`;
+        nIndex = 0;
+        temporary = [];
+    }
+}
 
 function displayQuoteSpanish() {
-    let aVerQuePasa = makeItRandomSpanish(); 
-    let quoteStrings = aVerQuePasa[0];
-    let authorStrings = aVerQuePasa[1];
-    quote.innerText = `"${quoteStrings}"`;
-    author.innerText = `<<${authorStrings}>>`;
+    // let newRandomQuote = makeItRandomSpanish(); 
+    // let quoteStrings = newRandomQuote[0];
+    // let authorStrings = newRandomQuote[1];
+    // let quoteStringsArray = [...quoteStrings];
+    // quote.innerText = `"${quoteStrings}"`;
+    // author.innerText = `<<${authorStrings}>>`;
+    let newRandomQuote = makeItRandomSpanish(); 
+    let quoteStrings = newRandomQuote[0];
+    let authorStrings = newRandomQuote[1];
+    let quoteStringsArray = [...quoteStrings];
+    setTimeout(displayDeAPoco,100,quoteStringsArray,authorStrings)
 }
 
 function displayQuoteEnglish() {
-    let aVerQuePasa = makeItRandomEnglish(); 
-    let quoteStrings = aVerQuePasa[0];
-    let authorStrings = aVerQuePasa[1];
+    let newRandomQuote = makeItRandomEnglish(); 
+    let quoteStrings = newRandomQuote[0];
+    let authorStrings = newRandomQuote[1];
     quote.innerText = `"${quoteStrings}"`;
     author.innerText = `<<${authorStrings}>>`;
 }
