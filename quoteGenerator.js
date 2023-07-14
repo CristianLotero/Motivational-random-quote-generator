@@ -543,12 +543,6 @@ function displayDeAPoco(array, theAuthor) {
 }
 
 function displayQuoteSpanish() {
-    // let newRandomQuote = makeItRandomSpanish(); 
-    // let quoteStrings = newRandomQuote[0];
-    // let authorStrings = newRandomQuote[1];
-    // let quoteStringsArray = [...quoteStrings];
-    // quote.innerText = `"${quoteStrings}"`;
-    // author.innerText = `<<${authorStrings}>>`;
     let newRandomQuote = makeItRandomSpanish(); 
     let quoteStrings = newRandomQuote[0];
     let authorStrings = newRandomQuote[1];
@@ -560,8 +554,8 @@ function displayQuoteEnglish() {
     let newRandomQuote = makeItRandomEnglish(); 
     let quoteStrings = newRandomQuote[0];
     let authorStrings = newRandomQuote[1];
-    quote.innerText = `"${quoteStrings}"`;
-    author.innerText = `<<${authorStrings}>>`;
+    let quoteStringsArray = [...quoteStrings];
+    setTimeout(displayDeAPoco,100,quoteStringsArray,authorStrings)
 }
 
 function fontBigger() {
