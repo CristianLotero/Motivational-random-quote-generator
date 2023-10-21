@@ -382,6 +382,7 @@ const quoteEnglishSuccess10 = [
     {id:29 ,quote: "Inside of a ring or out, ain't nothing wrong with going down. It's staying down that's wrong.", author: "Muhammad Ali"},
     {id:30 ,quote: "The person who knows 'how' will always have a job. The person who knows 'why' will always be his boss.", author: "Diane Ravitch"},
     {id:31 ,quote: "If you have to beg, then beg. If you have to barter, then barter. If you have to be creative, then be creative. Just don't be a victim of your circumstance.", author: "Gary Keller"},
+    {id:32 ,quote: "Success is not final, failure i not fatal: It is the courage to continue that counts", author: "Winston Churchill"},
 ];
 
 const quoteEnglishDreamBig11 = [
@@ -533,7 +534,7 @@ function displayDeAPoco(array, theAuthor) {
     let temporaryString = temporary.join("");
     quote.innerText = `"${temporaryString}"`;
     nIndex++
-    let mySetTimeout = setTimeout(displayDeAPoco,50,quoteArray,myAuthor)
+    let mySetTimeout = setTimeout(displayDeAPoco,50,quoteArray,myAuthor);
     if (nIndex === quoteArray.length) {
         clearTimeout(mySetTimeout);
         author.innerText = `<<${myAuthor}>>`;
