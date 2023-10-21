@@ -103,7 +103,8 @@ const quoteSpanishPositive6 = [
     {id:11 ,quote: "Existe al menos un rincón del universo que con toda seguridad puedes mejorar, y eres tú mismo ", author: "Aldous Huxley"},
     {id:12 ,quote: "El verdadero buscador crece y aprende, y descubre que siempre es el principal responsable de lo que sucede", author: "Jorge Bucay"},
     {id:13 ,quote: "Escribir es un oficio que se aprende escribiendo", author: "Simone de Beauvoir"},
-    {id:14 ,quote: "La forma más rápida de cambiar es convivir con personas que ya son como quieres ser", author: "Reid Hoffman"}
+    {id:14 ,quote: "La forma más rápida de cambiar es convivir con personas que ya son como quieres ser", author: "Reid Hoffman"},
+    {id:15 ,quote: "No hagas tus sufrimientos mas difíciles de soportar al llenarte de quejas", author: "Séneca"}  
 ];
 
 const quoteSpanishBeHappy7 = [
