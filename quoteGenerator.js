@@ -195,7 +195,8 @@ const quoteEnglishLife1 = [
     {id:11 ,quote: "Let us endeavor so to live, that when we come to die, even the undertaker will be sorry.", author: "Mark Twain"},
     {id:12 ,quote: "You only have to do a very few things right in your life—so long as you don't do too many things wrong.", author: "Warren Buffett"},
     {id:13 ,quote: "Accept that some days you're the pigeon, and some days you're the statue.", author: "Roger C. Andersen"},
-    {id:14 ,quote: "Success is falling nine times and getting up ten.", author: "Jon Bon Jovi "}
+    {id:14 ,quote: "Success is falling nine times and getting up ten.", author: "Jon Bon Jovi "},
+    {id:15 ,quote: "You only live once,but if you do it right, once is enough.", authror: "Mae West"}        
 ];
 
 const quoteEnglishTime2 = [
