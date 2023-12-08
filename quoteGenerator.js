@@ -492,7 +492,7 @@ let fontSizeSmaller = document.querySelector(".smaller");
 
 
 function makeItRandomSpanish() {
-    let spanishRandomArray = Math.floor (Math.random() * allSpanishQuotes.length);  
+    let spanishRandomArray = Math.floor (Math.random() * allSpanishQuotes.length);
     let spanishRandomQuote = Math.floor (Math.random() * allSpanishQuotes[spanishRandomArray].length);
     let randomQuote = allSpanishQuotes[spanishRandomArray][spanishRandomQuote].quote;
     let randomAuthor = allSpanishQuotes[spanishRandomArray][spanishRandomQuote].author;
