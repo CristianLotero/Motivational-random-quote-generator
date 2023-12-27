@@ -223,7 +223,8 @@ const quoteEnglishBeYourself3 = [
     {id:10 ,quote: "No one ever made a difference by being like everyone else.", author: "Buckminster Fuller"},
     {id:11 ,quote: "When someone is properly grounded in life, they shouldn't have to look outside themselves for approval.", author: "Epictetus"},
     {id:12 ,quote: "You eliminate competition by being yourself.", author: "Dan Go"},
-    {id:13 ,quote: "The tighter you cling to your current identity, the harder it becomes to grow beyond it.", author: "James Clear"}
+    {id:13 ,quote: "The tighter you cling to your current identity, the harder it becomes to grow beyond it.", author: "James Clear"},
+    {id:14 ,quote: "Waste no more time arguing about what a good man should be. Be one", author: "Marcos Aurelius"}
 ];
 
 const quoteEnglishStrength4 = [
