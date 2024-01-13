@@ -348,7 +348,8 @@ const quoteEnglishChange9 = [
     {id:23 ,quote: "We cannot change the cards we are dealt, just how we play the game.", author: "Randy Pausch"},
     {id:24 ,quote: "The key to change…is to let go of fear.", author: "Rosanne Cash"},
     {id:25 ,quote: "Change is not an event, it's a process.", author: "Cheryl James "},
-    {id:26 ,quote: "Every day the clock resets. Your wins don't matter. Your failures don't matter. Don't stress on what was, fight for what could be.", author: "Sean Higgins"}
+    {id:26 ,quote: "Every day the clock resets. Your wins don't matter. Your failures don't matter. Don't stress on what was, fight for what could be.", author: "Sean Higgins"},
+    {id:27 ,quote: "The real risk is doing nothing.", author: "Dennis Waitley"}
 ];
 
 const quoteEnglishSuccess10 = [
